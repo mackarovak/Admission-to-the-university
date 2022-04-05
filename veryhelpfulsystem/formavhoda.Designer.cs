@@ -79,6 +79,7 @@ namespace veryhelpfulsystem
             this.Controls.Add(this.label1);
             this.Name = "formavhoda";
             this.Text = "Вход";
+            this.Load += new System.EventHandler(this.formavhoda_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -12,6 +12,8 @@ namespace veryhelpfulsystem
 {
     public partial class formavhoda : Form
     {
+        DataBaseHelper DataBase;
+        List<user> users = new List<user>();
         public formavhoda()
         {
             InitializeComponent();
@@ -20,6 +22,12 @@ namespace veryhelpfulsystem
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void formavhoda_Load(object sender, EventArgs e)
+        {
+            DataBase = new DataBaseHelper();
+            users = DataBase.GetsAllUsers();
         }
     }
 }
