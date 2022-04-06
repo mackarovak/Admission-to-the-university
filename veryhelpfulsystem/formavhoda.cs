@@ -17,16 +17,18 @@ namespace veryhelpfulsystem
         public formavhoda()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void formavhoda_Load(object sender, EventArgs e)
         {
-           
+            Passwordfield.PasswordChar = '•';
+            pictureBox1.Visible = false;
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
@@ -53,6 +55,7 @@ namespace veryhelpfulsystem
                             if (dataTable.Rows.Count>0)
                             {
                                 MessageBox.Show("Вы успешно вошли в систему");
+                                this.Hide();
                                 Personalcabinet personalcabinet = new Personalcabinet();
                                 personalcabinet.Show();
                             }
@@ -70,6 +73,26 @@ namespace veryhelpfulsystem
         private void buttonExit_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Registration_form registration = new Registration_form();
+            registration.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Passwordfield.UseSystemPasswordChar = false;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = true;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Passwordfield.UseSystemPasswordChar = true;
+            pictureBox1.Visible = true;
+            pictureBox2.Visible = false;
         }
     }
 }
