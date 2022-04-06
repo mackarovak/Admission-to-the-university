@@ -15,6 +15,12 @@ namespace veryhelpfulsystem
         public Registration_form()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        private void Registration_form_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

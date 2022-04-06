@@ -100,6 +100,7 @@ namespace veryhelpfulsystem
             this.Controls.Add(this.label1);
             this.Name = "Registration_form";
             this.Text = "Регистрация";
+            this.Load += new System.EventHandler(this.Registration_form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
