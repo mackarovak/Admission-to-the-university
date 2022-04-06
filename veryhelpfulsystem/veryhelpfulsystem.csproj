@@ -108,11 +108,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\users.db" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\studente.db" />
     <None Include="Resources\telegram-1024x670.png" />
   </ItemGroup>
   <ItemGroup>
