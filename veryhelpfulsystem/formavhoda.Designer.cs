@@ -74,7 +74,7 @@ namespace veryhelpfulsystem
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(220, 93);
+            this.label3.Location = new System.Drawing.Point(265, 95);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 20);
             this.label3.TabIndex = 4;
@@ -92,12 +92,13 @@ namespace veryhelpfulsystem
             // 
             // buttonExit
             // 
-            this.buttonExit.Location = new System.Drawing.Point(473, 292);
+            this.buttonExit.Location = new System.Drawing.Point(694, 27);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(75, 23);
             this.buttonExit.TabIndex = 6;
             this.buttonExit.Text = "Выйти";
             this.buttonExit.UseVisualStyleBackColor = true;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // formavhoda
             // 
