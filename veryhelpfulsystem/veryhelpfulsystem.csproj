@@ -94,6 +94,9 @@
     <EmbeddedResource Include="formavhoda.resx">
       <DependentUpon>formavhoda.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Personalcabinet.resx">
+      <DependentUpon>Personalcabinet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -128,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sdsds.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

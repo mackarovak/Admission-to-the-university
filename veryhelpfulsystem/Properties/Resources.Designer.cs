@@ -84,6 +84,16 @@ namespace veryhelpfulsystem.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sdsds {
+            get {
+                object obj = ResourceManager.GetObject("sdsds", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap telegram_1024x670 {
             get {
                 object obj = ResourceManager.GetObject("telegram-1024x670", resourceCulture);

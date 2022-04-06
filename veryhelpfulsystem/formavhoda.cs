@@ -58,7 +58,7 @@ namespace veryhelpfulsystem
                             }
                             else
                             {
-                                MessageBox.Show("Вы неверно ввели логин и пароль, попробуйте заново");
+                                MessageBox.Show("Ошибка, вы неверно ввели логин и пароль, попробуйте заново");
                             }
                         }
                     }
