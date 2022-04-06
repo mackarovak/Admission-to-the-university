@@ -48,7 +48,7 @@ namespace veryhelpfulsystem
             // lbTitle
             // 
             this.lbTitle.AutoSize = true;
-            this.lbTitle.Location = new System.Drawing.Point(299, 76);
+            this.lbTitle.Location = new System.Drawing.Point(379, 58);
             this.lbTitle.Name = "lbTitle";
             this.lbTitle.Size = new System.Drawing.Size(51, 20);
             this.lbTitle.TabIndex = 2;
@@ -59,13 +59,13 @@ namespace veryhelpfulsystem
             this.tbContent.Location = new System.Drawing.Point(417, 165);
             this.tbContent.Multiline = true;
             this.tbContent.Name = "tbContent";
-            this.tbContent.Size = new System.Drawing.Size(1037, 281);
+            this.tbContent.Size = new System.Drawing.Size(1037, 182);
             this.tbContent.TabIndex = 3;
             this.tbContent.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pbImage
             // 
-            this.pbImage.Location = new System.Drawing.Point(32, 165);
+            this.pbImage.Location = new System.Drawing.Point(39, 116);
             this.pbImage.Name = "pbImage";
             this.pbImage.Size = new System.Drawing.Size(362, 279);
             this.pbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -81,7 +81,7 @@ namespace veryhelpfulsystem
             this.Controls.Add(this.pbImage);
             this.Controls.Add(this.lbTime);
             this.Name = "NewItemPanel";
-            this.Size = new System.Drawing.Size(1678, 630);
+            this.Size = new System.Drawing.Size(1678, 415);
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
