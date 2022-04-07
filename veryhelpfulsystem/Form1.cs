@@ -68,5 +68,10 @@ namespace veryhelpfulsystem
             flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             flowLayoutPanel1.AutoScroll = true;
         }
+
+        private void историяToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

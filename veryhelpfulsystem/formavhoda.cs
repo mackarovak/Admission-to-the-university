@@ -66,6 +66,7 @@ namespace veryhelpfulsystem
                         }
                     }
                 }
+                connection.Close();
             }
             
         }

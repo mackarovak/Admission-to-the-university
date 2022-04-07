@@ -31,6 +31,7 @@ namespace veryhelpfulsystem
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -39,13 +40,21 @@ namespace veryhelpfulsystem
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.vk = new System.Windows.Forms.PictureBox();
             this.tg = new System.Windows.Forms.PictureBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.историяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.документыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.оКФУToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.безопасностьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сведенияОбОбразовательнойОрганизацииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.контактыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vk)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tg)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -72,14 +81,23 @@ namespace veryhelpfulsystem
             this.tabPage1.Text = "Главная страница";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(6, 6);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1706, 890);
+            this.flowLayoutPanel1.TabIndex = 1;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.menuStrip1);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1848, 899);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "Образование";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tabPage3
@@ -152,13 +170,59 @@ namespace veryhelpfulsystem
             this.tg.TabStop = false;
             this.tg.Click += new System.EventHandler(this.tg_Click);
             // 
-            // flowLayoutPanel1
+            // menuStrip1
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(6, 6);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1706, 890);
-            this.flowLayoutPanel1.TabIndex = 1;
-            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.историяToolStripMenuItem,
+            this.документыToolStripMenuItem,
+            this.оКФУToolStripMenuItem,
+            this.безопасностьToolStripMenuItem,
+            this.сведенияОбОбразовательнойОрганизацииToolStripMenuItem,
+            this.контактыToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(3, 3);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1842, 33);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // историяToolStripMenuItem
+            // 
+            this.историяToolStripMenuItem.Name = "историяToolStripMenuItem";
+            this.историяToolStripMenuItem.Size = new System.Drawing.Size(97, 29);
+            this.историяToolStripMenuItem.Text = "История";
+            this.историяToolStripMenuItem.Click += new System.EventHandler(this.историяToolStripMenuItem_Click);
+            // 
+            // документыToolStripMenuItem
+            // 
+            this.документыToolStripMenuItem.Name = "документыToolStripMenuItem";
+            this.документыToolStripMenuItem.Size = new System.Drawing.Size(121, 29);
+            this.документыToolStripMenuItem.Text = "Документы";
+            // 
+            // оКФУToolStripMenuItem
+            // 
+            this.оКФУToolStripMenuItem.Name = "оКФУToolStripMenuItem";
+            this.оКФУToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
+            this.оКФУToolStripMenuItem.Text = "О КФУ";
+            // 
+            // безопасностьToolStripMenuItem
+            // 
+            this.безопасностьToolStripMenuItem.Name = "безопасностьToolStripMenuItem";
+            this.безопасностьToolStripMenuItem.Size = new System.Drawing.Size(138, 29);
+            this.безопасностьToolStripMenuItem.Text = "Безопасность";
+            // 
+            // сведенияОбОбразовательнойОрганизацииToolStripMenuItem
+            // 
+            this.сведенияОбОбразовательнойОрганизацииToolStripMenuItem.Name = "сведенияОбОбразовательнойОрганизацииToolStripMenuItem";
+            this.сведенияОбОбразовательнойОрганизацииToolStripMenuItem.Size = new System.Drawing.Size(392, 29);
+            this.сведенияОбОбразовательнойОрганизацииToolStripMenuItem.Text = "Сведения об образовательной организации";
+            // 
+            // контактыToolStripMenuItem
+            // 
+            this.контактыToolStripMenuItem.Name = "контактыToolStripMenuItem";
+            this.контактыToolStripMenuItem.Size = new System.Drawing.Size(104, 29);
+            this.контактыToolStripMenuItem.Text = "Контакты";
             // 
             // Form1
             // 
@@ -170,16 +234,21 @@ namespace veryhelpfulsystem
             this.Controls.Add(this.vk);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.tg);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "КФУ.Стань студентом!";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vk)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tg)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -197,6 +266,13 @@ namespace veryhelpfulsystem
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem историяToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem документыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem оКФУToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem безопасностьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сведенияОбОбразовательнойОрганизацииToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem контактыToolStripMenuItem;
     }
 }
 
