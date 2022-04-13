@@ -63,6 +63,16 @@ namespace veryhelpfulsystem.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _11255 {
+            get {
+                object obj = ResourceManager.GetObject("11255", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _12 {
             get {
                 object obj = ResourceManager.GetObject("12", resourceCulture);
@@ -83,9 +93,39 @@ namespace veryhelpfulsystem.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap a7485904c7d3f1d483a8f91193e52bf3 {
+            get {
+                object obj = ResourceManager.GetObject("a7485904c7d3f1d483a8f91193e52bf3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a7a6f790461a02c736e63ddd8a1df49b {
+            get {
+                object obj = ResourceManager.GetObject("a7a6f790461a02c736e63ddd8a1df49b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image004 {
             get {
                 object obj = ResourceManager.GetObject("image004", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img5 {
+            get {
+                object obj = ResourceManager.GetObject("img5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -117,6 +157,16 @@ namespace veryhelpfulsystem.Properties {
         internal static System.Drawing.Bitmap telegram_1024x670 {
             get {
                 object obj = ResourceManager.GetObject("telegram-1024x670", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VnkwNaaP_Ro {
+            get {
+                object obj = ResourceManager.GetObject("VnkwNaaP-Ro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

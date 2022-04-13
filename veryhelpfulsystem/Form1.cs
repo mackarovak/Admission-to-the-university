@@ -73,5 +73,59 @@ namespace veryhelpfulsystem
         {
 
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            var linkAddress = @"https://kpfu.ru/department-of-security/bezopasnost-universiteta/antiterroristicheskaya-deyatelnost"; 
+            System.Diagnostics.Process.Start(linkAddress);
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            var linkAddress = @"https://kpfu.ru/department-of-security/bezopasnost-universiteta/telefon-doveriya";
+            System.Diagnostics.Process.Start(linkAddress);
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var linkAddress = @"https://kpfu.ru/department-of-security/bezopasnost-universiteta/dezhurno-dispetcherskoj-sluzhba";
+            System.Diagnostics.Process.Start(linkAddress);
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            var linkAddress = @"https://kpfu.ru/department-of-security/bezopasnost-universiteta/profilaktika-narkomanii-v-molodezhnoj-srede";
+            System.Diagnostics.Process.Start(linkAddress);
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://kpfu.ru/portal/docs/F1344839694/Prikaz.Minobrnauki.Rossii.ot.18.marta.2022g..._10_02_0228.o.naznachenii.ispolnyayushhim.obyazannosti.rektora.Tayurskogo.D.A..pdf");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://kpfu.ru/portal/docs/F1751926221/Ustav.KFU_2018.pdf");
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://kpfu.ru/portal/docs/F_507185085/Prikaz.MO_14.02.2020__220.pdf");
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://kpfu.ru/portal/docs/F255911047/09.12.2016_01_06_1284_Gafurov_I.R._Halilova_A.N.pdf");
+        }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://kpfu.ru/portal/docs/F394227958/Prikaz.ot.29.12.2021._.1577.pdf");
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://kpfu.ru/portal/docs/F2042699633/Licenziya.na.OD.01.02.21.pdf");
+        }
     }
 }
