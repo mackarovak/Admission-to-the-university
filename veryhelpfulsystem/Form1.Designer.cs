@@ -106,7 +106,7 @@ namespace veryhelpfulsystem
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(1848, 899);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.Text = "Абитуриенту";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabPage4
@@ -115,7 +115,7 @@ namespace veryhelpfulsystem
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(1848, 899);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.Text = "Студенту";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // tabPage5
@@ -124,7 +124,7 @@ namespace veryhelpfulsystem
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Size = new System.Drawing.Size(1848, 899);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "tabPage5";
+            this.tabPage5.Text = "Сайт ректора";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
