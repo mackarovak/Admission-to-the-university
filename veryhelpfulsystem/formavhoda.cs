@@ -18,6 +18,7 @@ namespace veryhelpfulsystem
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
+            Passwordfield.UseSystemPasswordChar = true;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -27,8 +28,7 @@ namespace veryhelpfulsystem
 
         private void formavhoda_Load(object sender, EventArgs e)
         {
-            Passwordfield.PasswordChar = '•';
-            pictureBox1.Visible = false;
+            Passwordfield.PasswordChar = '\0';
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
@@ -82,18 +82,16 @@ namespace veryhelpfulsystem
             registration.Show();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void checkPass_CheckedChanged(object sender, EventArgs e)
         {
-            Passwordfield.UseSystemPasswordChar = false;
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            Passwordfield.UseSystemPasswordChar = true;
-            pictureBox1.Visible = true;
-            pictureBox2.Visible = false;
+            if (checkPass.Checked)
+            {
+                Passwordfield.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                Passwordfield.UseSystemPasswordChar = true;
+            }
         }
     }
 }

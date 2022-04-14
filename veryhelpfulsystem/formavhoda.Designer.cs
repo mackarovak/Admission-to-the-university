@@ -32,64 +32,59 @@ namespace veryhelpfulsystem
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.LoginField = new System.Windows.Forms.TextBox();
-            this.Passwordfield = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.checkPass = new System.Windows.Forms.CheckBox();
+            this.Passwordfield = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(182, 165);
+            this.label1.Location = new System.Drawing.Point(121, 107);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 20);
+            this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Логин";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(182, 229);
+            this.label2.Location = new System.Drawing.Point(121, 149);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 20);
+            this.label2.Size = new System.Drawing.Size(45, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Пароль";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // LoginField
             // 
-            this.LoginField.Location = new System.Drawing.Point(405, 165);
+            this.LoginField.Location = new System.Drawing.Point(270, 107);
+            this.LoginField.Margin = new System.Windows.Forms.Padding(2);
             this.LoginField.Name = "LoginField";
-            this.LoginField.Size = new System.Drawing.Size(100, 26);
+            this.LoginField.Size = new System.Drawing.Size(68, 20);
             this.LoginField.TabIndex = 2;
-            // 
-            // Passwordfield
-            // 
-            this.Passwordfield.Location = new System.Drawing.Point(405, 223);
-            this.Passwordfield.Name = "Passwordfield";
-            this.Passwordfield.Size = new System.Drawing.Size(100, 26);
-            this.Passwordfield.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(265, 95);
+            this.label3.Location = new System.Drawing.Point(177, 62);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 20);
+            this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Вход";
             // 
             // buttonLogin
             // 
-            this.buttonLogin.Location = new System.Drawing.Point(269, 292);
+            this.buttonLogin.Location = new System.Drawing.Point(179, 190);
+            this.buttonLogin.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(75, 23);
+            this.buttonLogin.Size = new System.Drawing.Size(60, 23);
             this.buttonLogin.TabIndex = 5;
             this.buttonLogin.Text = "Войти";
             this.buttonLogin.UseVisualStyleBackColor = true;
@@ -97,9 +92,10 @@ namespace veryhelpfulsystem
             // 
             // buttonExit
             // 
-            this.buttonExit.Location = new System.Drawing.Point(694, 27);
+            this.buttonExit.Location = new System.Drawing.Point(454, 18);
+            this.buttonExit.Margin = new System.Windows.Forms.Padding(2);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(75, 23);
+            this.buttonExit.Size = new System.Drawing.Size(59, 23);
             this.buttonExit.TabIndex = 6;
             this.buttonExit.Text = "Выйти";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -109,56 +105,52 @@ namespace veryhelpfulsystem
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.Gray;
-            this.linkLabel1.Location = new System.Drawing.Point(239, 331);
+            this.linkLabel1.Location = new System.Drawing.Point(159, 215);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(154, 20);
+            this.linkLabel1.Size = new System.Drawing.Size(104, 13);
             this.linkLabel1.TabIndex = 7;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Еще нет аккаунта?";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // pictureBox1
+            // checkPass
             // 
-            this.pictureBox1.Image = global::veryhelpfulsystem.Properties.Resources._13;
-            this.pictureBox1.Location = new System.Drawing.Point(525, 223);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(61, 35);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.checkPass.AutoSize = true;
+            this.checkPass.Location = new System.Drawing.Point(281, 190);
+            this.checkPass.Name = "checkPass";
+            this.checkPass.Size = new System.Drawing.Size(114, 17);
+            this.checkPass.TabIndex = 8;
+            this.checkPass.Text = "Показать пароль";
+            this.checkPass.UseVisualStyleBackColor = true;
+            this.checkPass.CheckedChanged += new System.EventHandler(this.checkPass_CheckedChanged);
             // 
-            // pictureBox2
+            // Passwordfield
             // 
-            this.pictureBox2.Image = global::veryhelpfulsystem.Properties.Resources._12;
-            this.pictureBox2.Location = new System.Drawing.Point(525, 223);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(61, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.Passwordfield.Location = new System.Drawing.Point(270, 149);
+            this.Passwordfield.Margin = new System.Windows.Forms.Padding(2);
+            this.Passwordfield.Name = "Passwordfield";
+            this.Passwordfield.Size = new System.Drawing.Size(68, 20);
+            this.Passwordfield.TabIndex = 9;
             // 
             // formavhoda
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(533, 292);
+            this.Controls.Add(this.Passwordfield);
+            this.Controls.Add(this.checkPass);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.Passwordfield);
             this.Controls.Add(this.LoginField);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "formavhoda";
             this.Text = "Вход";
             this.Load += new System.EventHandler(this.formavhoda_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,12 +161,11 @@ namespace veryhelpfulsystem
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox LoginField;
-        private System.Windows.Forms.TextBox Passwordfield;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.Button buttonExit;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.CheckBox checkPass;
+        private System.Windows.Forms.TextBox Passwordfield;
     }
 }

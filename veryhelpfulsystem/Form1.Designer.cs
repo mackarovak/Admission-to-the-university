@@ -180,7 +180,7 @@ namespace veryhelpfulsystem
             this.tabPage7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage7.Size = new System.Drawing.Size(1222, 558);
+            this.tabPage7.Size = new System.Drawing.Size(1175, 558);
             this.tabPage7.TabIndex = 1;
             this.tabPage7.Text = "Документы";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -286,7 +286,7 @@ namespace veryhelpfulsystem
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(1222, 558);
+            this.tabPage8.Size = new System.Drawing.Size(1175, 558);
             this.tabPage8.TabIndex = 2;
             this.tabPage8.Text = "О КФУ";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -310,7 +310,7 @@ namespace veryhelpfulsystem
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1222, 558);
+            this.tabPage9.Size = new System.Drawing.Size(1175, 558);
             this.tabPage9.TabIndex = 3;
             this.tabPage9.Text = "Безопасность";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -320,7 +320,7 @@ namespace veryhelpfulsystem
             this.tabPage10.Location = new System.Drawing.Point(4, 22);
             this.tabPage10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(1222, 558);
+            this.tabPage10.Size = new System.Drawing.Size(1175, 558);
             this.tabPage10.TabIndex = 4;
             this.tabPage10.Text = "Сведения об образовательной организации";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -483,53 +483,64 @@ namespace veryhelpfulsystem
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightBlue;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(992, 37);
+            this.button1.Location = new System.Drawing.Point(992, 51);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 51);
+            this.button1.Size = new System.Drawing.Size(157, 56);
             this.button1.TabIndex = 1;
             this.button1.Text = "Музей истории";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightBlue;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(992, 111);
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button2.Location = new System.Drawing.Point(992, 127);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(157, 49);
             this.button2.TabIndex = 2;
             this.button2.Text = "Ректоры университета";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.LightBlue;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(992, 186);
+            this.button3.Location = new System.Drawing.Point(992, 203);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(157, 56);
             this.button3.TabIndex = 3;
             this.button3.Text = "Казанскому университету-215";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.LightBlue;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(992, 266);
+            this.button4.Location = new System.Drawing.Point(992, 295);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(157, 59);
             this.button4.TabIndex = 4;
             this.button4.Text = "Традиции Казанского университета";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.LightBlue;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(992, 354);
+            this.button5.Location = new System.Drawing.Point(992, 381);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(157, 56);
             this.button5.TabIndex = 5;
             this.button5.Text = "Миссия Казанского университета";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
