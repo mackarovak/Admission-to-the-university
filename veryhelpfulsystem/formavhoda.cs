@@ -13,6 +13,7 @@ namespace veryhelpfulsystem
 {
     public partial class formavhoda : Form
     {
+        int ID;
         List<user> users = new List<user>();
         public formavhoda()
         {
@@ -56,7 +57,7 @@ namespace veryhelpfulsystem
                             {
                                 MessageBox.Show("Вы успешно вошли в систему");
                                 this.Hide();
-                                Personalcabinet personalcabinet = new Personalcabinet();
+                                Personalcabinet personalcabinet = new Personalcabinet(ID);
                                 personalcabinet.Show();
                             }
                             else

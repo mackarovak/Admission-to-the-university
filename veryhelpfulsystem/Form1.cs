@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -126,6 +128,27 @@ namespace veryhelpfulsystem
         private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("https://kpfu.ru/portal/docs/F2042699633/Licenziya.na.OD.01.02.21.pdf");
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            string sql = "SELECT ID, FIO, EGE FROM studente WHERE consent='Да' ORDER BY EGE DESC";
+            SQLiteConnection connection = new SQLiteConnection("Data Source='studente.db'");
+            connection.Open();
+            using (SQLiteCommand command = new SQLiteCommand(sql, connection))
+            { 
+                using (SQLiteDataReader reader = command.ExecuteReader())
+                {
+                    using (StreamWriter streamWriter = new StreamWriter("Приказ"))
+                    {
+                        while (reader.Read())
+                        {
+                            for (int i = 0; i < reader.FieldCount; streamWriter.Write("\t" + reader[i++].ToString())) ;
+                            streamWriter.WriteLine(string.Empty);
+                        }
+                    }
+                }
+            }
         }
     }
 }
