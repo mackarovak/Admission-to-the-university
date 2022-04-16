@@ -27,6 +27,7 @@ namespace veryhelpfulsystem
                        };
 
             Build();
+            dataGridView1.RowCount = 3;
         }
 
 

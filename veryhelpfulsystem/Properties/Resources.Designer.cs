@@ -123,6 +123,16 @@ namespace veryhelpfulsystem.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IMG_1373 {
+            get {
+                object obj = ResourceManager.GetObject("IMG_1373", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img5 {
             get {
                 object obj = ResourceManager.GetObject("img5", resourceCulture);
