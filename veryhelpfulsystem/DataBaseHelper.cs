@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
+using System.IO;
 
 namespace veryhelpfulsystem
 {
@@ -18,6 +19,7 @@ namespace veryhelpfulsystem
             connection1.Open();
             connection2.Open();
         }
+
 
         public List<user> GetsAllUsers()
         {

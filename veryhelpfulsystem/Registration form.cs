@@ -17,6 +17,7 @@ namespace veryhelpfulsystem
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
+            Passwordfield.UseSystemPasswordChar = true;
         }
 
         private void Registration_form_Load(object sender, EventArgs e)
@@ -26,6 +27,7 @@ namespace veryhelpfulsystem
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
+            DataBaseHelper dataBase = new DataBaseHelper();
             if (LoginField.Text.Trim() == "" && Passwordfield.Text.Trim() == "")
             {
                 MessageBox.Show("Ошибка, пожалуйста, придумайте логин и пароль");
@@ -55,7 +57,6 @@ namespace veryhelpfulsystem
                 connection.Close();
             }
         }
-
         public Boolean checkUser()
         {
             string sql = "SELECT * FROM users WHERE 'login'=@login";
@@ -82,5 +83,18 @@ namespace veryhelpfulsystem
                 }
             }
         }
+
+        private void checkPass_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkPass.Checked)
+            {
+                Passwordfield.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                Passwordfield.UseSystemPasswordChar = true;
+            }
+        }
     }
+
 }

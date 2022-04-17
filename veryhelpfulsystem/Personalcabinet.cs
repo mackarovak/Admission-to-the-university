@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; 
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,39 +13,46 @@ namespace veryhelpfulsystem
 {
     public partial class Personalcabinet : Form
     {
-        int userID=0;
         List<user> users = new List<user>();
+        private long ID;
 
         public Personalcabinet(int ID)
         {
             InitializeComponent();
-            userID= ID;
+            this.ID = ID;
         }
+
 
         private void Personalcabinet_Load(object sender, EventArgs e)
         {
-            for (int i = 0; i < users.Count; i++)
+            string sql = "SELECT * FROM studente WHERE ID=@ID";
+            SQLiteConnection connection = new SQLiteConnection("Data Source='studente.db'");
+            connection.Open();
+            using (SQLiteCommand command = new SQLiteCommand(sql, connection))
             {
-                if (userID == users[i].ID)
+                command.Parameters.AddWithValue("@ID", ID);
+                // command.Parameters.AddWithValue("@FIO", FIOtext.Text);
+                SQLiteDataReader dataReader = command.ExecuteReader();
+                while (dataReader.Read())
                 {
-                    string sql = "SELECT * FROM studente WHERE ID=@ID AND FIO=@FIO";
-                    SQLiteConnection connection = new SQLiteConnection("Data Source='studente.db'");
-                    connection.Open();
-                    using (SQLiteCommand command = new SQLiteCommand(sql, connection))
-                    {
-                        command.Parameters.AddWithValue("@ID", IDtext.Text);
-                        command.Parameters.AddWithValue("@FIO", FIOtext.Text);
-                        using (SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(command))
-                        {
-                            using (DataTable dataTable = new DataTable())
-                            {
-                                dataAdapter.Fill(dataTable);
-                            }
-                        }
-                    }
-                    connection.Close();
+                    IDtext.Text = dataReader.GetValue(0).ToString();
+                    FIOtext.Text = dataReader.GetValue(1).ToString();
+                    textIndivid.Text = dataReader.GetValue(4).ToString();
                 }
             }
+            connection.Close();
+
+
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

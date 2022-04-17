@@ -13,7 +13,6 @@ namespace veryhelpfulsystem
 {
     public partial class formavhoda : Form
     {
-        int ID;
         List<user> users = new List<user>();
         public formavhoda()
         {
@@ -24,7 +23,7 @@ namespace veryhelpfulsystem
 
         private void label2_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void formavhoda_Load(object sender, EventArgs e)
@@ -34,7 +33,7 @@ namespace veryhelpfulsystem
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            if (LoginField.Text.Trim()==""&& Passwordfield.Text.Trim()=="")
+            if (LoginField.Text.Trim() == "" && Passwordfield.Text.Trim() == "")
             {
                 MessageBox.Show("Ошибка, пожалуйста, введите логин и пароль");
             }
@@ -48,28 +47,33 @@ namespace veryhelpfulsystem
                 {
                     command.Parameters.AddWithValue("@login", LoginField.Text);
                     command.Parameters.AddWithValue("@password", Passwordfield.Text);
-                    using (SQLiteDataAdapter dataAdapter=new SQLiteDataAdapter(command))
+                    using (SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(command))
                     {
-                        using (DataTable dataTable=new DataTable())
+                        using (DataTable dataTable = new DataTable())
                         {
                             dataAdapter.Fill(dataTable);
-                            if (dataTable.Rows.Count>0)
+
+                            if (dataTable.Rows.Count > 0)
                             {
-                                MessageBox.Show("Вы успешно вошли в систему");
-                                this.Hide();
-                                Personalcabinet personalcabinet = new Personalcabinet(ID);
-                                personalcabinet.Show();
+                                foreach (DataRow row in dataTable.Rows)
+                                {
+                                    Int64 ID = (long)row["ID"];
+                                    MessageBox.Show("Вы успешно вошли в систему");
+                                    this.Hide();
+                                    Personalcabinet personalcabinet = new Personalcabinet((int)ID);
+                                    personalcabinet.Show();
+                                }
                             }
                             else
                             {
                                 MessageBox.Show("Ошибка, вы неверно ввели логин и пароль, попробуйте заново");
                             }
+
                         }
                     }
                 }
                 connection.Close();
             }
-            
         }
 
         private void buttonExit_Click(object sender, EventArgs e)

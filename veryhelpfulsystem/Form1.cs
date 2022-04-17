@@ -16,6 +16,7 @@ namespace veryhelpfulsystem
     public partial class Form1 : Form
     {
         private News news;
+        DataBaseHelper dataBase;
         public Form1()
         {
             InitializeComponent();
@@ -137,14 +138,14 @@ namespace veryhelpfulsystem
             SQLiteConnection connection = new SQLiteConnection("Data Source='studente.db'");
             connection.Open();
             using (SQLiteCommand command = new SQLiteCommand(sql, connection))
-            { 
+            {
                 using (SQLiteDataReader reader = command.ExecuteReader())
                 {
-                    using (StreamWriter streamWriter = new StreamWriter("Приказ"))
+                    using (StreamWriter streamWriter = new StreamWriter("Приказ.txt"))
                     {
                         while (reader.Read())
                         {
-                            for (int i = 0; i < reader.FieldCount; streamWriter.Write("\t" + reader[i++].ToString())) ;
+                            for (int i = 0; i < reader.FieldCount; streamWriter.Write((i == 0 ? string.Empty : " ") + reader[i++].ToString())) ;
                             streamWriter.WriteLine(string.Empty);
                         }
                     }

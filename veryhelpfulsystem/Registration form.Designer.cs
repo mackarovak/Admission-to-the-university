@@ -35,6 +35,7 @@ namespace veryhelpfulsystem
             this.LoginField = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.checkPass = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // buttonLogin
@@ -88,11 +89,24 @@ namespace veryhelpfulsystem
             this.label1.TabIndex = 6;
             this.label1.Text = "Логин";
             // 
+            // checkPass
+            // 
+            this.checkPass.AutoSize = true;
+            this.checkPass.Location = new System.Drawing.Point(531, 317);
+            this.checkPass.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkPass.Name = "checkPass";
+            this.checkPass.Size = new System.Drawing.Size(167, 24);
+            this.checkPass.TabIndex = 12;
+            this.checkPass.Text = "Показать пароль";
+            this.checkPass.UseVisualStyleBackColor = true;
+            this.checkPass.CheckedChanged += new System.EventHandler(this.checkPass_CheckedChanged);
+            // 
             // Registration_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkPass);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Passwordfield);
@@ -115,5 +129,6 @@ namespace veryhelpfulsystem
         private System.Windows.Forms.TextBox LoginField;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkPass;
     }
 }
