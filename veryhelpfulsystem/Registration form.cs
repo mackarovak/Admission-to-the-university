@@ -34,7 +34,9 @@ namespace veryhelpfulsystem
             }
 
             if (checkUser())
+            {
                 return;
+            }
 
             else
             {
@@ -57,6 +59,7 @@ namespace veryhelpfulsystem
                 connection.Close();
             }
         }
+
         public Boolean checkUser()
         {
             string sql = "SELECT * FROM users WHERE 'login'=@login";

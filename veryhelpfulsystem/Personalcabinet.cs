@@ -31,7 +31,6 @@ namespace veryhelpfulsystem
             using (SQLiteCommand command = new SQLiteCommand(sql, connection))
             {
                 command.Parameters.AddWithValue("@ID", ID);
-                // command.Parameters.AddWithValue("@FIO", FIOtext.Text);
                 SQLiteDataReader dataReader = command.ExecuteReader();
                 while (dataReader.Read())
                 {
@@ -41,8 +40,6 @@ namespace veryhelpfulsystem
                 }
             }
             connection.Close();
-
-
         }
 
         private void exit_Click(object sender, EventArgs e)

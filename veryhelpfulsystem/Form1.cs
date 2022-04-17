@@ -17,6 +17,7 @@ namespace veryhelpfulsystem
     {
         private News news;
         DataBaseHelper dataBase;
+        List<PeopleFromPrikaz> peoplefromprikazs = new List<PeopleFromPrikaz>();
         public Form1()
         {
             InitializeComponent();
@@ -80,7 +81,7 @@ namespace veryhelpfulsystem
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            var linkAddress = @"https://kpfu.ru/department-of-security/bezopasnost-universiteta/antiterroristicheskaya-deyatelnost"; 
+            var linkAddress = @"https://kpfu.ru/department-of-security/bezopasnost-universiteta/antiterroristicheskaya-deyatelnost";
             System.Diagnostics.Process.Start(linkAddress);
         }
 
@@ -134,22 +135,17 @@ namespace veryhelpfulsystem
 
         private void label3_Click(object sender, EventArgs e)
         {
-            string sql = "SELECT ID, FIO, EGE FROM studente WHERE consent='Да' ORDER BY EGE DESC";
-            SQLiteConnection connection = new SQLiteConnection("Data Source='studente.db'");
-            connection.Open();
-            using (SQLiteCommand command = new SQLiteCommand(sql, connection))
+            
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            dataBase = new DataBaseHelper();
+            peoplefromprikazs = dataBase.ZapisPrikaza();
+            using (StreamWriter streamWriter = new StreamWriter("Приказ.txt"))
             {
-                using (SQLiteDataReader reader = command.ExecuteReader())
-                {
-                    using (StreamWriter streamWriter = new StreamWriter("Приказ.txt"))
-                    {
-                        while (reader.Read())
-                        {
-                            for (int i = 0; i < reader.FieldCount; streamWriter.Write((i == 0 ? string.Empty : " ") + reader[i++].ToString())) ;
-                            streamWriter.WriteLine(string.Empty);
-                        }
-                    }
-                }
+                for (int i = 0; i < peoplefromprikazs.Count; streamWriter.Write((i == 0 ? string.Empty : " ") + peoplefromprikazs[i++].ToString())) ;
+                streamWriter.WriteLine(string.Empty);
             }
         }
     }

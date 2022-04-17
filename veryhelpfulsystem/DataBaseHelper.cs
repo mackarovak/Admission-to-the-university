@@ -20,6 +20,27 @@ namespace veryhelpfulsystem
             connection2.Open();
         }
 
+        public List <PeopleFromPrikaz> ZapisPrikaza()
+        {
+            string sql = "SELECT ID, FIO, EGE FROM studente WHERE consent='Да' ORDER BY EGE DESC";
+            List<PeopleFromPrikaz> people = new List<PeopleFromPrikaz>();
+            using (SQLiteCommand command = new SQLiteCommand(sql, connection2))
+            {
+                using (SQLiteDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        PeopleFromPrikaz item = new PeopleFromPrikaz(
+                        (long)reader["ID"],
+                        (string)reader["FIO"],
+                        (int)reader["EGE"
+                    ]);
+                        people.Add(item);
+                    }
+                }
+            }
+            return people;
+        }
 
         public List<user> GetsAllUsers()
         {
@@ -32,7 +53,6 @@ namespace veryhelpfulsystem
                 {
                     while (reader.Read())
                     {
-
                         user user = new user((int)reader["ID"], (string)reader["login"], (string)reader["password"]);
                         users.Add(user);
                     }

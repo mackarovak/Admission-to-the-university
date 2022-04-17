@@ -253,6 +253,7 @@ namespace veryhelpfulsystem
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.vk = new System.Windows.Forms.PictureBox();
             this.tg = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -909,6 +910,7 @@ namespace veryhelpfulsystem
             // 
             // tabPage13
             // 
+            this.tabPage13.Controls.Add(this.button6);
             this.tabPage13.Controls.Add(this.label3);
             this.tabPage13.Location = new System.Drawing.Point(4, 29);
             this.tabPage13.Name = "tabPage13";
@@ -999,6 +1001,16 @@ namespace veryhelpfulsystem
             this.tg.TabIndex = 0;
             this.tg.TabStop = false;
             this.tg.Click += new System.EventHandler(this.tg_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(40, 30);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
             // 
@@ -1094,6 +1106,7 @@ namespace veryhelpfulsystem
         private System.Windows.Forms.TabPage tabPage13;
         private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button6;
     }
 }
 

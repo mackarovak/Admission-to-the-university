@@ -103,6 +103,7 @@
     </Compile>
     <Compile Include="News.cs" />
     <Compile Include="NewsItem.cs" />
+    <Compile Include="PeopleFromPrikaz.cs" />
     <Compile Include="Personalcabinet.cs">
       <SubType>Form</SubType>
     </Compile>
