@@ -38,8 +38,7 @@ namespace veryhelpfulsystem
                 return;
             }
 
-            else
-            {
+            else { 
                 string sql = "INSERT INTO 'users' ('login', 'password') VALUES (@login, @password)";
                 SQLiteConnection connection = new SQLiteConnection("Data Source='users.db'");
                 connection.Open();
@@ -62,12 +61,14 @@ namespace veryhelpfulsystem
 
         public Boolean checkUser()
         {
-            string sql = "SELECT * FROM users WHERE 'login'=@login";
+            DataBaseHelper dataBaseHelper=new DataBaseHelper();
+            string sql = "SELECT * FROM users WHERE login=@login AND password=@password";
             SQLiteConnection connection = new SQLiteConnection("Data Source='users.db'");
             connection.Open();
             using (SQLiteCommand command = new SQLiteCommand(sql, connection))
             {
                 command.Parameters.AddWithValue("@login", LoginField.Text);
+                command.Parameters.AddWithValue("@password", Passwordfield.Text);
                 using (SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(command))
                 {
                     using (DataTable dataTable = new DataTable())
