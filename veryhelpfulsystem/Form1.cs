@@ -29,7 +29,7 @@ namespace veryhelpfulsystem
                        };
 
             Build();
-            dataGridView1.RowCount = 3;
+           
         }
 
 
@@ -147,6 +147,31 @@ namespace veryhelpfulsystem
                 for (int i = 0; i < peoplefromprikazs.Count; streamWriter.Write((i == 0 ? string.Empty : " ") + peoplefromprikazs[i++].ToString())) ;
                 streamWriter.WriteLine(string.Empty);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/museum-of-history");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/about_university/istoriya-universiteta/rektory-universiteta");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/about_university/kazanskomu-universitetu-215");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/about_university/istoriya-universiteta/tradicii-kazanskogo-universiteta");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/about_university/missiya-kazanskogo-universiteta");
         }
     }
 }

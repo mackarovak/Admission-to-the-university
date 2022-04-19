@@ -39,49 +39,59 @@ namespace veryhelpfulsystem
             // lbTime
             // 
             this.lbTime.AutoSize = true;
-            this.lbTime.Location = new System.Drawing.Point(1203, 29);
+            this.lbTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbTime.Location = new System.Drawing.Point(827, 14);
+            this.lbTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbTime.Name = "lbTime";
-            this.lbTime.Size = new System.Drawing.Size(51, 20);
+            this.lbTime.Size = new System.Drawing.Size(51, 16);
             this.lbTime.TabIndex = 0;
             this.lbTime.Text = "label1";
             // 
             // lbTitle
             // 
             this.lbTitle.AutoSize = true;
-            this.lbTitle.Location = new System.Drawing.Point(379, 58);
+            this.lbTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbTitle.Location = new System.Drawing.Point(288, 38);
+            this.lbTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbTitle.Name = "lbTitle";
-            this.lbTitle.Size = new System.Drawing.Size(51, 20);
+            this.lbTitle.Size = new System.Drawing.Size(66, 24);
             this.lbTitle.TabIndex = 2;
             this.lbTitle.Text = "label2";
             // 
             // tbContent
             // 
-            this.tbContent.Location = new System.Drawing.Point(417, 165);
+            this.tbContent.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbContent.Location = new System.Drawing.Point(278, 83);
+            this.tbContent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbContent.Multiline = true;
             this.tbContent.Name = "tbContent";
-            this.tbContent.Size = new System.Drawing.Size(1037, 182);
+            this.tbContent.Size = new System.Drawing.Size(693, 144);
             this.tbContent.TabIndex = 3;
             this.tbContent.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pbImage
             // 
-            this.pbImage.Location = new System.Drawing.Point(39, 116);
+            this.pbImage.Location = new System.Drawing.Point(2, 54);
+            this.pbImage.Margin = new System.Windows.Forms.Padding(2);
             this.pbImage.Name = "pbImage";
-            this.pbImage.Size = new System.Drawing.Size(362, 279);
+            this.pbImage.Size = new System.Drawing.Size(265, 202);
             this.pbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbImage.TabIndex = 1;
             this.pbImage.TabStop = false;
             // 
             // NewItemPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.tbContent);
             this.Controls.Add(this.lbTitle);
             this.Controls.Add(this.pbImage);
             this.Controls.Add(this.lbTime);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "NewItemPanel";
-            this.Size = new System.Drawing.Size(1678, 415);
+            this.Size = new System.Drawing.Size(1085, 264);
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
