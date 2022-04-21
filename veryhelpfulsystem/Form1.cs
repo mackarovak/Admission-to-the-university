@@ -173,5 +173,30 @@ namespace veryhelpfulsystem
         {
             Process.Start("https://kpfu.ru/about_university/missiya-kazanskogo-universiteta");
         }
+
+        private void structure_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/about_university/struct");
+        }
+
+        private void facts_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/about_university/cifry-i-fakty");
+        }
+
+        private void priem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/about_university/internet-priemnaya");
+        }
+
+        private void workers_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/staff/sotrudniki-kfu");
+        }
+
+        private void maps_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://kpfu.ru/about_university/karta-vseh-obektov");
+        }
     }
 }
