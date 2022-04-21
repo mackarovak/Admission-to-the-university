@@ -85,26 +85,29 @@ namespace veryhelpfulsystem
             // 
             // buttonLogin
             // 
+            this.buttonLogin.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonLogin.Location = new System.Drawing.Point(179, 188);
             this.buttonLogin.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(86, 23);
+            this.buttonLogin.Size = new System.Drawing.Size(93, 32);
             this.buttonLogin.TabIndex = 5;
             this.buttonLogin.Text = "Войти";
-            this.buttonLogin.UseVisualStyleBackColor = true;
+            this.buttonLogin.UseVisualStyleBackColor = false;
             this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // buttonExit
             // 
+            this.buttonExit.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonExit.ForeColor = System.Drawing.SystemColors.ControlText;
             this.buttonExit.Location = new System.Drawing.Point(439, 11);
             this.buttonExit.Margin = new System.Windows.Forms.Padding(2);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(76, 29);
             this.buttonExit.TabIndex = 6;
             this.buttonExit.Text = "Выйти";
-            this.buttonExit.UseVisualStyleBackColor = true;
+            this.buttonExit.UseVisualStyleBackColor = false;
             this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // linkLabel1
@@ -112,7 +115,7 @@ namespace veryhelpfulsystem
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabel1.LinkColor = System.Drawing.Color.Gray;
-            this.linkLabel1.Location = new System.Drawing.Point(161, 231);
+            this.linkLabel1.Location = new System.Drawing.Point(161, 236);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(133, 16);

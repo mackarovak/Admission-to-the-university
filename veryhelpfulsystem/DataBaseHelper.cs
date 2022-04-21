@@ -33,8 +33,8 @@ namespace veryhelpfulsystem
                         PeopleFromPrikaz item = new PeopleFromPrikaz(
                         (long)reader["ID"],
                         (string)reader["FIO"],
-                        (int)reader["EGE"
-                    ]);
+                        (int)reader["EGE"]
+                    );
                         people.Add(item);
                     }
                 }
