@@ -252,10 +252,10 @@ namespace veryhelpfulsystem
             // 
             // exit
             // 
-            this.exit.Location = new System.Drawing.Point(638, 0);
+            this.exit.Location = new System.Drawing.Point(888, 22);
             this.exit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(58, 26);
+            this.exit.Size = new System.Drawing.Size(83, 38);
             this.exit.TabIndex = 1;
             this.exit.Text = "Выход";
             this.exit.UseVisualStyleBackColor = true;
