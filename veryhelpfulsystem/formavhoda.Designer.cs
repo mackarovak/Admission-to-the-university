@@ -101,7 +101,7 @@ namespace veryhelpfulsystem
             this.buttonExit.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonExit.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonExit.Location = new System.Drawing.Point(439, 11);
+            this.buttonExit.Location = new System.Drawing.Point(439, 21);
             this.buttonExit.Margin = new System.Windows.Forms.Padding(2);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(76, 29);

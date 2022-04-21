@@ -40,7 +40,7 @@ namespace veryhelpfulsystem
             // 
             this.lbTime.AutoSize = true;
             this.lbTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbTime.Location = new System.Drawing.Point(827, 14);
+            this.lbTime.Location = new System.Drawing.Point(852, 21);
             this.lbTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbTime.Name = "lbTime";
             this.lbTime.Size = new System.Drawing.Size(51, 16);
@@ -62,7 +62,7 @@ namespace veryhelpfulsystem
             // 
             this.tbContent.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbContent.Location = new System.Drawing.Point(278, 83);
-            this.tbContent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbContent.Margin = new System.Windows.Forms.Padding(2);
             this.tbContent.Multiline = true;
             this.tbContent.Name = "tbContent";
             this.tbContent.Size = new System.Drawing.Size(693, 144);
@@ -89,9 +89,9 @@ namespace veryhelpfulsystem
             this.Controls.Add(this.lbTitle);
             this.Controls.Add(this.pbImage);
             this.Controls.Add(this.lbTime);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "NewItemPanel";
-            this.Size = new System.Drawing.Size(1085, 264);
+            this.Size = new System.Drawing.Size(1078, 264);
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

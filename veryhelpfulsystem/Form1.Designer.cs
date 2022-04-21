@@ -981,7 +981,7 @@ namespace veryhelpfulsystem
             // pictureBox1
             // 
             this.pictureBox1.Image = global::veryhelpfulsystem.Properties.Resources.image004;
-            this.pictureBox1.Location = new System.Drawing.Point(1069, 29);
+            this.pictureBox1.Location = new System.Drawing.Point(1057, 36);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(96, 36);
@@ -993,7 +993,7 @@ namespace veryhelpfulsystem
             // vk
             // 
             this.vk.Image = global::veryhelpfulsystem.Properties.Resources.kisspng_social_media_vk_computer_icons_social_networking_s_vkontakte_5b2d8b8679a5a8_3313770315297114944983;
-            this.vk.Location = new System.Drawing.Point(965, 14);
+            this.vk.Location = new System.Drawing.Point(943, 14);
             this.vk.Margin = new System.Windows.Forms.Padding(2);
             this.vk.Name = "vk";
             this.vk.Size = new System.Drawing.Size(85, 65);
@@ -1005,7 +1005,7 @@ namespace veryhelpfulsystem
             // tg
             // 
             this.tg.Image = global::veryhelpfulsystem.Properties.Resources.telegram_1024x670;
-            this.tg.Location = new System.Drawing.Point(875, 14);
+            this.tg.Location = new System.Drawing.Point(845, 14);
             this.tg.Margin = new System.Windows.Forms.Padding(2);
             this.tg.Name = "tg";
             this.tg.Size = new System.Drawing.Size(94, 58);
