@@ -49,6 +49,8 @@ namespace veryhelpfulsystem
                     if (command.ExecuteNonQuery() == 1)
                     {
                         MessageBox.Show("Супер, аккаунт был создан");
+                        formavhoda formavhoda = new formavhoda();
+                        formavhoda.ShowDialog();
                     }
                     else
                     {
