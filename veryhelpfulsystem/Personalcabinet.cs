@@ -36,6 +36,8 @@ namespace veryhelpfulsystem
                 {
                     IDtext.Text = dataReader.GetValue(0).ToString();
                     FIOtext.Text = dataReader.GetValue(1).ToString();
+                    sogltext.Text = dataReader.GetValue(5).ToString();
+                    EGEtext.Text = dataReader.GetValue(3).ToString();
                     textIndivid.Text = dataReader.GetValue(4).ToString();
                 }
             }
@@ -45,11 +47,6 @@ namespace veryhelpfulsystem
         private void exit_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

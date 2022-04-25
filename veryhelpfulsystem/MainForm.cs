@@ -14,12 +14,12 @@ using System.Windows.Forms;
 
 namespace veryhelpfulsystem
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private News news;
         DataBaseHelper dataBase;
         List<PeopleFromPrikaz> peoplefromprikazs = new List<PeopleFromPrikaz>();
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             news = new News
@@ -30,9 +30,7 @@ namespace veryhelpfulsystem
                        };
 
             Build();
-           
         }
-      
 
         private void Build()
         {
@@ -57,22 +55,12 @@ namespace veryhelpfulsystem
             formavhoda.Show();
         }
 
-        private void NewItemPanel_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
             flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             flowLayoutPanel1.WrapContents = false;
             flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             flowLayoutPanel1.AutoScroll = true;
-        }
-
-        private void историяToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -127,11 +115,6 @@ namespace veryhelpfulsystem
         private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("https://kpfu.ru/portal/docs/F2042699633/Licenziya.na.OD.01.02.21.pdf");
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -197,9 +180,9 @@ namespace veryhelpfulsystem
 
         private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-         
-                System.Diagnostics.Process.Start("https://e.mail.ru/compose/");
-            
+
+            System.Diagnostics.Process.Start("https://e.mail.ru/compose/");
+
         }
 
         private void linkLabel8_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

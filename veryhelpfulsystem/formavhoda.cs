@@ -21,11 +21,6 @@ namespace veryhelpfulsystem
             Passwordfield.UseSystemPasswordChar = true;
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void formavhoda_Load(object sender, EventArgs e)
         {
             Passwordfield.PasswordChar = '\0';

@@ -20,11 +20,6 @@ namespace veryhelpfulsystem
             Passwordfield.UseSystemPasswordChar = true;
         }
 
-        private void Registration_form_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             DataBaseHelper dataBase = new DataBaseHelper();
