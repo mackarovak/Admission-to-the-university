@@ -31,7 +31,7 @@ namespace veryhelpfulsystem
             Build();
            
         }
-
+      
 
         private void Build()
         {
@@ -197,6 +197,18 @@ namespace veryhelpfulsystem
         private void maps_Click(object sender, EventArgs e)
         {
             Process.Start("https://kpfu.ru/about_university/karta-vseh-obektov");
+        }
+
+        private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+         
+                System.Diagnostics.Process.Start("https://e.mail.ru/compose/");
+            
+        }
+
+        private void linkLabel8_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://admissions.kpfu.ru");
         }
     }
 }
