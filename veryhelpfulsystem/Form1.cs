@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -48,11 +49,6 @@ namespace veryhelpfulsystem
         private void vk_Click(object sender, EventArgs e)
         {
             Process.Start("https://vk.com/kazan_federal_university");
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -209,6 +205,46 @@ namespace veryhelpfulsystem
         private void linkLabel8_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://admissions.kpfu.ru");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://students.kpfu.ru/learning/distance-learning");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://students.kpfu.ru/#login");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://students.kpfu.ru/universiade-village/hostel/about");
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://students.kpfu.ru/academic%20mobility/grants/about");
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://students.kpfu.ru/about-student-club/club/about");
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://students.kpfu.ru/#login");
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://students.kpfu.ru/work/vacancies-rus");
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://students.kpfu.ru/#login");
         }
     }
 }

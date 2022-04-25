@@ -103,6 +103,16 @@ namespace veryhelpfulsystem.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2022_04_25_17_18_14 {
+            get {
+                object obj = ResourceManager.GetObject("_2022_04_25_17_18_14", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap a7485904c7d3f1d483a8f91193e52bf3 {
             get {
                 object obj = ResourceManager.GetObject("a7485904c7d3f1d483a8f91193e52bf3", resourceCulture);
