@@ -30,182 +30,182 @@ namespace veryhelpfulsystem
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.TreeNode treeNode189 = new System.Windows.Forms.TreeNode("Физика");
-            System.Windows.Forms.TreeNode treeNode190 = new System.Windows.Forms.TreeNode("Радиофизика");
-            System.Windows.Forms.TreeNode treeNode191 = new System.Windows.Forms.TreeNode("Нанотехнологии и микросистемная техника");
-            System.Windows.Forms.TreeNode treeNode192 = new System.Windows.Forms.TreeNode("Механика и математическое моделирование");
-            System.Windows.Forms.TreeNode treeNode193 = new System.Windows.Forms.TreeNode("Прикладная механика");
-            System.Windows.Forms.TreeNode treeNode194 = new System.Windows.Forms.TreeNode("Геодезия и дистанционное зондирование");
-            System.Windows.Forms.TreeNode treeNode195 = new System.Windows.Forms.TreeNode("Математика");
-            System.Windows.Forms.TreeNode treeNode196 = new System.Windows.Forms.TreeNode("Астрономия");
-            System.Windows.Forms.TreeNode treeNode197 = new System.Windows.Forms.TreeNode("Математика, физика", new System.Windows.Forms.TreeNode[] {
-            treeNode189,
-            treeNode190,
-            treeNode191,
-            treeNode192,
-            treeNode193,
-            treeNode194,
-            treeNode195,
-            treeNode196});
-            System.Windows.Forms.TreeNode treeNode198 = new System.Windows.Forms.TreeNode("География");
-            System.Windows.Forms.TreeNode treeNode199 = new System.Windows.Forms.TreeNode("Картография и геоинформатика");
-            System.Windows.Forms.TreeNode treeNode200 = new System.Windows.Forms.TreeNode("Экология и природользование");
-            System.Windows.Forms.TreeNode treeNode201 = new System.Windows.Forms.TreeNode("Землеустройство и кадастры");
-            System.Windows.Forms.TreeNode treeNode202 = new System.Windows.Forms.TreeNode("Гидрометерология");
-            System.Windows.Forms.TreeNode treeNode203 = new System.Windows.Forms.TreeNode("Почвоведение");
-            System.Windows.Forms.TreeNode treeNode204 = new System.Windows.Forms.TreeNode("Природоустройство и водопользование");
-            System.Windows.Forms.TreeNode treeNode205 = new System.Windows.Forms.TreeNode("Геология");
-            System.Windows.Forms.TreeNode treeNode206 = new System.Windows.Forms.TreeNode("Геофизика");
-            System.Windows.Forms.TreeNode treeNode207 = new System.Windows.Forms.TreeNode("Инженерная геология и гидрогеология");
-            System.Windows.Forms.TreeNode treeNode208 = new System.Windows.Forms.TreeNode("Нефтегазовое дело");
-            System.Windows.Forms.TreeNode treeNode209 = new System.Windows.Forms.TreeNode("Биотехнология ");
-            System.Windows.Forms.TreeNode treeNode210 = new System.Windows.Forms.TreeNode("Геология и освоение месторождений нефти и газа");
-            System.Windows.Forms.TreeNode treeNode211 = new System.Windows.Forms.TreeNode("Геология, география, экология и природопользование", new System.Windows.Forms.TreeNode[] {
-            treeNode198,
-            treeNode199,
-            treeNode200,
-            treeNode201,
-            treeNode202,
-            treeNode203,
-            treeNode204,
-            treeNode205,
-            treeNode206,
-            treeNode207,
-            treeNode208,
-            treeNode209,
-            treeNode210});
-            System.Windows.Forms.TreeNode treeNode212 = new System.Windows.Forms.TreeNode("Биотехнические системы и технологии");
-            System.Windows.Forms.TreeNode treeNode213 = new System.Windows.Forms.TreeNode("Медицинская биохимия");
-            System.Windows.Forms.TreeNode treeNode214 = new System.Windows.Forms.TreeNode("Биология");
-            System.Windows.Forms.TreeNode treeNode215 = new System.Windows.Forms.TreeNode("Лечебное дело");
-            System.Windows.Forms.TreeNode treeNode216 = new System.Windows.Forms.TreeNode("Фармация");
-            System.Windows.Forms.TreeNode treeNode217 = new System.Windows.Forms.TreeNode("Стоматология");
-            System.Windows.Forms.TreeNode treeNode218 = new System.Windows.Forms.TreeNode("Химия");
-            System.Windows.Forms.TreeNode treeNode219 = new System.Windows.Forms.TreeNode("Фундаментальная и прикладная химия");
-            System.Windows.Forms.TreeNode treeNode220 = new System.Windows.Forms.TreeNode("Химия, биология", new System.Windows.Forms.TreeNode[] {
-            treeNode212,
-            treeNode213,
-            treeNode214,
-            treeNode215,
-            treeNode216,
-            treeNode217,
-            treeNode218,
-            treeNode219});
-            System.Windows.Forms.TreeNode treeNode221 = new System.Windows.Forms.TreeNode("Инноватика");
-            System.Windows.Forms.TreeNode treeNode222 = new System.Windows.Forms.TreeNode("Математика и компьютерные науки");
-            System.Windows.Forms.TreeNode treeNode223 = new System.Windows.Forms.TreeNode("Прикладная математика и информатика");
-            System.Windows.Forms.TreeNode treeNode224 = new System.Windows.Forms.TreeNode("Прикладная математика");
-            System.Windows.Forms.TreeNode treeNode225 = new System.Windows.Forms.TreeNode("Фундаментальная информатика и информационные технологии");
-            System.Windows.Forms.TreeNode treeNode226 = new System.Windows.Forms.TreeNode("Информационные системы и технологии");
-            System.Windows.Forms.TreeNode treeNode227 = new System.Windows.Forms.TreeNode("Прикладная информатика");
-            System.Windows.Forms.TreeNode treeNode228 = new System.Windows.Forms.TreeNode("Информационная безопасность");
-            System.Windows.Forms.TreeNode treeNode229 = new System.Windows.Forms.TreeNode("Бизнес-информатика");
-            System.Windows.Forms.TreeNode treeNode230 = new System.Windows.Forms.TreeNode("Компьютерные науки", new System.Windows.Forms.TreeNode[] {
-            treeNode221,
-            treeNode222,
-            treeNode223,
-            treeNode224,
-            treeNode225,
-            treeNode226,
-            treeNode227,
-            treeNode228,
-            treeNode229});
-            System.Windows.Forms.TreeNode treeNode231 = new System.Windows.Forms.TreeNode("Современная разработка программного обеспечения");
-            System.Windows.Forms.TreeNode treeNode232 = new System.Windows.Forms.TreeNode("Разработка цифровых продуктов в распределенных командах");
-            System.Windows.Forms.TreeNode treeNode233 = new System.Windows.Forms.TreeNode("Программная инженерия", new System.Windows.Forms.TreeNode[] {
-            treeNode231,
-            treeNode232});
-            System.Windows.Forms.TreeNode treeNode234 = new System.Windows.Forms.TreeNode("Информационная безопасность автоматизированных систем");
-            System.Windows.Forms.TreeNode treeNode235 = new System.Windows.Forms.TreeNode("Информационная безопасность");
-            System.Windows.Forms.TreeNode treeNode236 = new System.Windows.Forms.TreeNode("Управление качеством");
-            System.Windows.Forms.TreeNode treeNode237 = new System.Windows.Forms.TreeNode("Техническая физика");
-            System.Windows.Forms.TreeNode treeNode238 = new System.Windows.Forms.TreeNode("Нанотехнологии и микросистемная техника");
-            System.Windows.Forms.TreeNode treeNode239 = new System.Windows.Forms.TreeNode("Прикладная механика");
-            System.Windows.Forms.TreeNode treeNode240 = new System.Windows.Forms.TreeNode("Инженерные и технические науки", new System.Windows.Forms.TreeNode[] {
-            treeNode234,
-            treeNode235,
-            treeNode236,
-            treeNode237,
-            treeNode238,
-            treeNode239});
-            System.Windows.Forms.TreeNode treeNode241 = new System.Windows.Forms.TreeNode("Журналистика");
-            System.Windows.Forms.TreeNode treeNode242 = new System.Windows.Forms.TreeNode("Телевидение");
-            System.Windows.Forms.TreeNode treeNode243 = new System.Windows.Forms.TreeNode("Медиакоммуникации");
-            System.Windows.Forms.TreeNode treeNode244 = new System.Windows.Forms.TreeNode("Реклама и связи с общественностью");
-            System.Windows.Forms.TreeNode treeNode245 = new System.Windows.Forms.TreeNode("Дизайн");
-            System.Windows.Forms.TreeNode treeNode246 = new System.Windows.Forms.TreeNode("Коммуникации, медиа и дизайн", new System.Windows.Forms.TreeNode[] {
-            treeNode241,
-            treeNode242,
-            treeNode243,
-            treeNode244,
-            treeNode245});
-            System.Windows.Forms.TreeNode treeNode247 = new System.Windows.Forms.TreeNode("Экономика");
-            System.Windows.Forms.TreeNode treeNode248 = new System.Windows.Forms.TreeNode("Экономическая безопасность");
-            System.Windows.Forms.TreeNode treeNode249 = new System.Windows.Forms.TreeNode("Менеджмент");
-            System.Windows.Forms.TreeNode treeNode250 = new System.Windows.Forms.TreeNode("Управление персоналом");
-            System.Windows.Forms.TreeNode treeNode251 = new System.Windows.Forms.TreeNode("Государственное и муниципальное управление");
-            System.Windows.Forms.TreeNode treeNode252 = new System.Windows.Forms.TreeNode("Торговое дело");
-            System.Windows.Forms.TreeNode treeNode253 = new System.Windows.Forms.TreeNode("Сервис");
-            System.Windows.Forms.TreeNode treeNode254 = new System.Windows.Forms.TreeNode("Гостиничное дело");
-            System.Windows.Forms.TreeNode treeNode255 = new System.Windows.Forms.TreeNode("Экономика и управление", new System.Windows.Forms.TreeNode[] {
-            treeNode247,
-            treeNode248,
-            treeNode249,
-            treeNode250,
-            treeNode251,
-            treeNode252,
-            treeNode253,
-            treeNode254});
-            System.Windows.Forms.TreeNode treeNode256 = new System.Windows.Forms.TreeNode("Культурология");
-            System.Windows.Forms.TreeNode treeNode257 = new System.Windows.Forms.TreeNode("Международные отношения");
-            System.Windows.Forms.TreeNode treeNode258 = new System.Windows.Forms.TreeNode("Востоковедение и афганистика");
-            System.Windows.Forms.TreeNode treeNode259 = new System.Windows.Forms.TreeNode("Зарубежное регионоведение");
-            System.Windows.Forms.TreeNode treeNode260 = new System.Windows.Forms.TreeNode("Регионоведение России");
-            System.Windows.Forms.TreeNode treeNode261 = new System.Windows.Forms.TreeNode("История");
-            System.Windows.Forms.TreeNode treeNode262 = new System.Windows.Forms.TreeNode("Туризм");
-            System.Windows.Forms.TreeNode treeNode263 = new System.Windows.Forms.TreeNode("Лингвистика");
-            System.Windows.Forms.TreeNode treeNode264 = new System.Windows.Forms.TreeNode("Философия");
-            System.Windows.Forms.TreeNode treeNode265 = new System.Windows.Forms.TreeNode("Гуманитарные науки", new System.Windows.Forms.TreeNode[] {
-            treeNode256,
-            treeNode257,
-            treeNode258,
-            treeNode259,
-            treeNode260,
-            treeNode261,
-            treeNode262,
-            treeNode263,
-            treeNode264});
-            System.Windows.Forms.TreeNode treeNode266 = new System.Windows.Forms.TreeNode("Юриспруденция ");
-            System.Windows.Forms.TreeNode treeNode267 = new System.Windows.Forms.TreeNode("Судебная и прокурорская деятельность");
-            System.Windows.Forms.TreeNode treeNode268 = new System.Windows.Forms.TreeNode("Юриспруденция", new System.Windows.Forms.TreeNode[] {
-            treeNode266,
-            treeNode267});
-            System.Windows.Forms.TreeNode treeNode269 = new System.Windows.Forms.TreeNode("Зарубежная филология");
-            System.Windows.Forms.TreeNode treeNode270 = new System.Windows.Forms.TreeNode("Прикладная филология");
-            System.Windows.Forms.TreeNode treeNode271 = new System.Windows.Forms.TreeNode("Лингвистика");
-            System.Windows.Forms.TreeNode treeNode272 = new System.Windows.Forms.TreeNode("Перевод и переводоведение");
-            System.Windows.Forms.TreeNode treeNode273 = new System.Windows.Forms.TreeNode("Филология и лингвистика", new System.Windows.Forms.TreeNode[] {
-            treeNode269,
-            treeNode270,
-            treeNode271,
-            treeNode272});
-            System.Windows.Forms.TreeNode treeNode274 = new System.Windows.Forms.TreeNode("Социология");
-            System.Windows.Forms.TreeNode treeNode275 = new System.Windows.Forms.TreeNode("Политология");
-            System.Windows.Forms.TreeNode treeNode276 = new System.Windows.Forms.TreeNode("Конфликтология");
-            System.Windows.Forms.TreeNode treeNode277 = new System.Windows.Forms.TreeNode("Религиоведение");
-            System.Windows.Forms.TreeNode treeNode278 = new System.Windows.Forms.TreeNode("Теология");
-            System.Windows.Forms.TreeNode treeNode279 = new System.Windows.Forms.TreeNode("Психология");
-            System.Windows.Forms.TreeNode treeNode280 = new System.Windows.Forms.TreeNode("Клиническая психология");
-            System.Windows.Forms.TreeNode treeNode281 = new System.Windows.Forms.TreeNode("Организация работы с молодежью");
-            System.Windows.Forms.TreeNode treeNode282 = new System.Windows.Forms.TreeNode("Социальные науки", new System.Windows.Forms.TreeNode[] {
-            treeNode274,
-            treeNode275,
-            treeNode276,
-            treeNode277,
-            treeNode278,
-            treeNode279,
-            treeNode280,
-            treeNode281});
+            System.Windows.Forms.TreeNode treeNode283 = new System.Windows.Forms.TreeNode("Физика");
+            System.Windows.Forms.TreeNode treeNode284 = new System.Windows.Forms.TreeNode("Радиофизика");
+            System.Windows.Forms.TreeNode treeNode285 = new System.Windows.Forms.TreeNode("Нанотехнологии и микросистемная техника");
+            System.Windows.Forms.TreeNode treeNode286 = new System.Windows.Forms.TreeNode("Механика и математическое моделирование");
+            System.Windows.Forms.TreeNode treeNode287 = new System.Windows.Forms.TreeNode("Прикладная механика");
+            System.Windows.Forms.TreeNode treeNode288 = new System.Windows.Forms.TreeNode("Геодезия и дистанционное зондирование");
+            System.Windows.Forms.TreeNode treeNode289 = new System.Windows.Forms.TreeNode("Математика");
+            System.Windows.Forms.TreeNode treeNode290 = new System.Windows.Forms.TreeNode("Астрономия");
+            System.Windows.Forms.TreeNode treeNode291 = new System.Windows.Forms.TreeNode("Математика, физика", new System.Windows.Forms.TreeNode[] {
+            treeNode283,
+            treeNode284,
+            treeNode285,
+            treeNode286,
+            treeNode287,
+            treeNode288,
+            treeNode289,
+            treeNode290});
+            System.Windows.Forms.TreeNode treeNode292 = new System.Windows.Forms.TreeNode("География");
+            System.Windows.Forms.TreeNode treeNode293 = new System.Windows.Forms.TreeNode("Картография и геоинформатика");
+            System.Windows.Forms.TreeNode treeNode294 = new System.Windows.Forms.TreeNode("Экология и природользование");
+            System.Windows.Forms.TreeNode treeNode295 = new System.Windows.Forms.TreeNode("Землеустройство и кадастры");
+            System.Windows.Forms.TreeNode treeNode296 = new System.Windows.Forms.TreeNode("Гидрометерология");
+            System.Windows.Forms.TreeNode treeNode297 = new System.Windows.Forms.TreeNode("Почвоведение");
+            System.Windows.Forms.TreeNode treeNode298 = new System.Windows.Forms.TreeNode("Природоустройство и водопользование");
+            System.Windows.Forms.TreeNode treeNode299 = new System.Windows.Forms.TreeNode("Геология");
+            System.Windows.Forms.TreeNode treeNode300 = new System.Windows.Forms.TreeNode("Геофизика");
+            System.Windows.Forms.TreeNode treeNode301 = new System.Windows.Forms.TreeNode("Инженерная геология и гидрогеология");
+            System.Windows.Forms.TreeNode treeNode302 = new System.Windows.Forms.TreeNode("Нефтегазовое дело");
+            System.Windows.Forms.TreeNode treeNode303 = new System.Windows.Forms.TreeNode("Биотехнология ");
+            System.Windows.Forms.TreeNode treeNode304 = new System.Windows.Forms.TreeNode("Геология и освоение месторождений нефти и газа");
+            System.Windows.Forms.TreeNode treeNode305 = new System.Windows.Forms.TreeNode("Геология, география, экология и природопользование", new System.Windows.Forms.TreeNode[] {
+            treeNode292,
+            treeNode293,
+            treeNode294,
+            treeNode295,
+            treeNode296,
+            treeNode297,
+            treeNode298,
+            treeNode299,
+            treeNode300,
+            treeNode301,
+            treeNode302,
+            treeNode303,
+            treeNode304});
+            System.Windows.Forms.TreeNode treeNode306 = new System.Windows.Forms.TreeNode("Биотехнические системы и технологии");
+            System.Windows.Forms.TreeNode treeNode307 = new System.Windows.Forms.TreeNode("Медицинская биохимия");
+            System.Windows.Forms.TreeNode treeNode308 = new System.Windows.Forms.TreeNode("Биология");
+            System.Windows.Forms.TreeNode treeNode309 = new System.Windows.Forms.TreeNode("Лечебное дело");
+            System.Windows.Forms.TreeNode treeNode310 = new System.Windows.Forms.TreeNode("Фармация");
+            System.Windows.Forms.TreeNode treeNode311 = new System.Windows.Forms.TreeNode("Стоматология");
+            System.Windows.Forms.TreeNode treeNode312 = new System.Windows.Forms.TreeNode("Химия");
+            System.Windows.Forms.TreeNode treeNode313 = new System.Windows.Forms.TreeNode("Фундаментальная и прикладная химия");
+            System.Windows.Forms.TreeNode treeNode314 = new System.Windows.Forms.TreeNode("Химия, биология", new System.Windows.Forms.TreeNode[] {
+            treeNode306,
+            treeNode307,
+            treeNode308,
+            treeNode309,
+            treeNode310,
+            treeNode311,
+            treeNode312,
+            treeNode313});
+            System.Windows.Forms.TreeNode treeNode315 = new System.Windows.Forms.TreeNode("Инноватика");
+            System.Windows.Forms.TreeNode treeNode316 = new System.Windows.Forms.TreeNode("Математика и компьютерные науки");
+            System.Windows.Forms.TreeNode treeNode317 = new System.Windows.Forms.TreeNode("Прикладная математика и информатика");
+            System.Windows.Forms.TreeNode treeNode318 = new System.Windows.Forms.TreeNode("Прикладная математика");
+            System.Windows.Forms.TreeNode treeNode319 = new System.Windows.Forms.TreeNode("Фундаментальная информатика и информационные технологии");
+            System.Windows.Forms.TreeNode treeNode320 = new System.Windows.Forms.TreeNode("Информационные системы и технологии");
+            System.Windows.Forms.TreeNode treeNode321 = new System.Windows.Forms.TreeNode("Прикладная информатика");
+            System.Windows.Forms.TreeNode treeNode322 = new System.Windows.Forms.TreeNode("Информационная безопасность");
+            System.Windows.Forms.TreeNode treeNode323 = new System.Windows.Forms.TreeNode("Бизнес-информатика");
+            System.Windows.Forms.TreeNode treeNode324 = new System.Windows.Forms.TreeNode("Компьютерные науки", new System.Windows.Forms.TreeNode[] {
+            treeNode315,
+            treeNode316,
+            treeNode317,
+            treeNode318,
+            treeNode319,
+            treeNode320,
+            treeNode321,
+            treeNode322,
+            treeNode323});
+            System.Windows.Forms.TreeNode treeNode325 = new System.Windows.Forms.TreeNode("Современная разработка программного обеспечения");
+            System.Windows.Forms.TreeNode treeNode326 = new System.Windows.Forms.TreeNode("Разработка цифровых продуктов в распределенных командах");
+            System.Windows.Forms.TreeNode treeNode327 = new System.Windows.Forms.TreeNode("Программная инженерия", new System.Windows.Forms.TreeNode[] {
+            treeNode325,
+            treeNode326});
+            System.Windows.Forms.TreeNode treeNode328 = new System.Windows.Forms.TreeNode("Информационная безопасность автоматизированных систем");
+            System.Windows.Forms.TreeNode treeNode329 = new System.Windows.Forms.TreeNode("Информационная безопасность");
+            System.Windows.Forms.TreeNode treeNode330 = new System.Windows.Forms.TreeNode("Управление качеством");
+            System.Windows.Forms.TreeNode treeNode331 = new System.Windows.Forms.TreeNode("Техническая физика");
+            System.Windows.Forms.TreeNode treeNode332 = new System.Windows.Forms.TreeNode("Нанотехнологии и микросистемная техника");
+            System.Windows.Forms.TreeNode treeNode333 = new System.Windows.Forms.TreeNode("Прикладная механика");
+            System.Windows.Forms.TreeNode treeNode334 = new System.Windows.Forms.TreeNode("Инженерные и технические науки", new System.Windows.Forms.TreeNode[] {
+            treeNode328,
+            treeNode329,
+            treeNode330,
+            treeNode331,
+            treeNode332,
+            treeNode333});
+            System.Windows.Forms.TreeNode treeNode335 = new System.Windows.Forms.TreeNode("Журналистика");
+            System.Windows.Forms.TreeNode treeNode336 = new System.Windows.Forms.TreeNode("Телевидение");
+            System.Windows.Forms.TreeNode treeNode337 = new System.Windows.Forms.TreeNode("Медиакоммуникации");
+            System.Windows.Forms.TreeNode treeNode338 = new System.Windows.Forms.TreeNode("Реклама и связи с общественностью");
+            System.Windows.Forms.TreeNode treeNode339 = new System.Windows.Forms.TreeNode("Дизайн");
+            System.Windows.Forms.TreeNode treeNode340 = new System.Windows.Forms.TreeNode("Коммуникации, медиа и дизайн", new System.Windows.Forms.TreeNode[] {
+            treeNode335,
+            treeNode336,
+            treeNode337,
+            treeNode338,
+            treeNode339});
+            System.Windows.Forms.TreeNode treeNode341 = new System.Windows.Forms.TreeNode("Экономика");
+            System.Windows.Forms.TreeNode treeNode342 = new System.Windows.Forms.TreeNode("Экономическая безопасность");
+            System.Windows.Forms.TreeNode treeNode343 = new System.Windows.Forms.TreeNode("Менеджмент");
+            System.Windows.Forms.TreeNode treeNode344 = new System.Windows.Forms.TreeNode("Управление персоналом");
+            System.Windows.Forms.TreeNode treeNode345 = new System.Windows.Forms.TreeNode("Государственное и муниципальное управление");
+            System.Windows.Forms.TreeNode treeNode346 = new System.Windows.Forms.TreeNode("Торговое дело");
+            System.Windows.Forms.TreeNode treeNode347 = new System.Windows.Forms.TreeNode("Сервис");
+            System.Windows.Forms.TreeNode treeNode348 = new System.Windows.Forms.TreeNode("Гостиничное дело");
+            System.Windows.Forms.TreeNode treeNode349 = new System.Windows.Forms.TreeNode("Экономика и управление", new System.Windows.Forms.TreeNode[] {
+            treeNode341,
+            treeNode342,
+            treeNode343,
+            treeNode344,
+            treeNode345,
+            treeNode346,
+            treeNode347,
+            treeNode348});
+            System.Windows.Forms.TreeNode treeNode350 = new System.Windows.Forms.TreeNode("Культурология");
+            System.Windows.Forms.TreeNode treeNode351 = new System.Windows.Forms.TreeNode("Международные отношения");
+            System.Windows.Forms.TreeNode treeNode352 = new System.Windows.Forms.TreeNode("Востоковедение и афганистика");
+            System.Windows.Forms.TreeNode treeNode353 = new System.Windows.Forms.TreeNode("Зарубежное регионоведение");
+            System.Windows.Forms.TreeNode treeNode354 = new System.Windows.Forms.TreeNode("Регионоведение России");
+            System.Windows.Forms.TreeNode treeNode355 = new System.Windows.Forms.TreeNode("История");
+            System.Windows.Forms.TreeNode treeNode356 = new System.Windows.Forms.TreeNode("Туризм");
+            System.Windows.Forms.TreeNode treeNode357 = new System.Windows.Forms.TreeNode("Лингвистика");
+            System.Windows.Forms.TreeNode treeNode358 = new System.Windows.Forms.TreeNode("Философия");
+            System.Windows.Forms.TreeNode treeNode359 = new System.Windows.Forms.TreeNode("Гуманитарные науки", new System.Windows.Forms.TreeNode[] {
+            treeNode350,
+            treeNode351,
+            treeNode352,
+            treeNode353,
+            treeNode354,
+            treeNode355,
+            treeNode356,
+            treeNode357,
+            treeNode358});
+            System.Windows.Forms.TreeNode treeNode360 = new System.Windows.Forms.TreeNode("Юриспруденция ");
+            System.Windows.Forms.TreeNode treeNode361 = new System.Windows.Forms.TreeNode("Судебная и прокурорская деятельность");
+            System.Windows.Forms.TreeNode treeNode362 = new System.Windows.Forms.TreeNode("Юриспруденция", new System.Windows.Forms.TreeNode[] {
+            treeNode360,
+            treeNode361});
+            System.Windows.Forms.TreeNode treeNode363 = new System.Windows.Forms.TreeNode("Зарубежная филология");
+            System.Windows.Forms.TreeNode treeNode364 = new System.Windows.Forms.TreeNode("Прикладная филология");
+            System.Windows.Forms.TreeNode treeNode365 = new System.Windows.Forms.TreeNode("Лингвистика");
+            System.Windows.Forms.TreeNode treeNode366 = new System.Windows.Forms.TreeNode("Перевод и переводоведение");
+            System.Windows.Forms.TreeNode treeNode367 = new System.Windows.Forms.TreeNode("Филология и лингвистика", new System.Windows.Forms.TreeNode[] {
+            treeNode363,
+            treeNode364,
+            treeNode365,
+            treeNode366});
+            System.Windows.Forms.TreeNode treeNode368 = new System.Windows.Forms.TreeNode("Социология");
+            System.Windows.Forms.TreeNode treeNode369 = new System.Windows.Forms.TreeNode("Политология");
+            System.Windows.Forms.TreeNode treeNode370 = new System.Windows.Forms.TreeNode("Конфликтология");
+            System.Windows.Forms.TreeNode treeNode371 = new System.Windows.Forms.TreeNode("Религиоведение");
+            System.Windows.Forms.TreeNode treeNode372 = new System.Windows.Forms.TreeNode("Теология");
+            System.Windows.Forms.TreeNode treeNode373 = new System.Windows.Forms.TreeNode("Психология");
+            System.Windows.Forms.TreeNode treeNode374 = new System.Windows.Forms.TreeNode("Клиническая психология");
+            System.Windows.Forms.TreeNode treeNode375 = new System.Windows.Forms.TreeNode("Организация работы с молодежью");
+            System.Windows.Forms.TreeNode treeNode376 = new System.Windows.Forms.TreeNode("Социальные науки", new System.Windows.Forms.TreeNode[] {
+            treeNode368,
+            treeNode369,
+            treeNode370,
+            treeNode371,
+            treeNode372,
+            treeNode373,
+            treeNode374,
+            treeNode375});
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -351,7 +351,7 @@ namespace veryhelpfulsystem
             this.tabControl1.Location = new System.Drawing.Point(12, 147);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1718, 1279);
+            this.tabControl1.Size = new System.Drawing.Size(1910, 1279);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -361,7 +361,7 @@ namespace veryhelpfulsystem
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1710, 1246);
+            this.tabPage1.Size = new System.Drawing.Size(1902, 1246);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Главная страница";
             // 
@@ -370,7 +370,7 @@ namespace veryhelpfulsystem
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(6, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1842, 892);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1902, 892);
             this.flowLayoutPanel1.TabIndex = 1;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
@@ -1283,207 +1283,207 @@ namespace veryhelpfulsystem
             this.treeView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
-            treeNode189.Name = "Узел3";
-            treeNode189.Text = "Физика";
-            treeNode190.Name = "Узел4";
-            treeNode190.Text = "Радиофизика";
-            treeNode191.Name = "Узел5";
-            treeNode191.Text = "Нанотехнологии и микросистемная техника";
-            treeNode192.Name = "Узел6";
-            treeNode192.Text = "Механика и математическое моделирование";
-            treeNode193.Name = "Узел7";
-            treeNode193.Text = "Прикладная механика";
-            treeNode194.Name = "Узел8";
-            treeNode194.Text = "Геодезия и дистанционное зондирование";
-            treeNode195.Name = "Узел12";
-            treeNode195.Text = "Математика";
-            treeNode196.Name = "Узел13";
-            treeNode196.Text = "Астрономия";
-            treeNode197.Name = "Узел0";
-            treeNode197.Text = "Математика, физика";
-            treeNode198.Name = "Узел15";
-            treeNode198.Text = "География";
-            treeNode199.Name = "Узел18";
-            treeNode199.Text = "Картография и геоинформатика";
-            treeNode200.Name = "Узел19";
-            treeNode200.Text = "Экология и природользование";
-            treeNode201.Name = "Узел20";
-            treeNode201.Text = "Землеустройство и кадастры";
-            treeNode202.Name = "Узел21";
-            treeNode202.Text = "Гидрометерология";
-            treeNode203.Name = "Узел24";
-            treeNode203.Text = "Почвоведение";
-            treeNode204.Name = "Узел25";
-            treeNode204.Text = "Природоустройство и водопользование";
-            treeNode205.Name = "Узел26";
-            treeNode205.Text = "Геология";
-            treeNode206.Name = "Узел27";
-            treeNode206.Text = "Геофизика";
-            treeNode207.Name = "Узел29";
-            treeNode207.Text = "Инженерная геология и гидрогеология";
-            treeNode208.Name = "Узел32";
-            treeNode208.Text = "Нефтегазовое дело";
-            treeNode209.Name = "Узел34";
-            treeNode209.Text = "Биотехнология ";
-            treeNode210.Name = "Узел35";
-            treeNode210.Text = "Геология и освоение месторождений нефти и газа";
-            treeNode211.Name = "Узел14";
-            treeNode211.Text = "Геология, география, экология и природопользование";
-            treeNode212.Name = "Узел64";
-            treeNode212.Text = "Биотехнические системы и технологии";
-            treeNode213.Name = "Узел65";
-            treeNode213.Text = "Медицинская биохимия";
-            treeNode214.Name = "Узел66";
-            treeNode214.Text = "Биология";
-            treeNode215.Name = "Узел67";
-            treeNode215.Text = "Лечебное дело";
-            treeNode216.Name = "Узел68";
-            treeNode216.Text = "Фармация";
-            treeNode217.Name = "Узел69";
-            treeNode217.Text = "Стоматология";
-            treeNode218.Name = "Узел70";
-            treeNode218.Text = "Химия";
-            treeNode219.Name = "Узел71";
-            treeNode219.Text = "Фундаментальная и прикладная химия";
-            treeNode220.Name = "Узел54";
-            treeNode220.Text = "Химия, биология";
-            treeNode221.Name = "Узел72";
-            treeNode221.Text = "Инноватика";
-            treeNode222.Name = "Узел73";
-            treeNode222.Text = "Математика и компьютерные науки";
-            treeNode223.Name = "Узел74";
-            treeNode223.Text = "Прикладная математика и информатика";
-            treeNode224.Name = "Узел75";
-            treeNode224.Text = "Прикладная математика";
-            treeNode225.Name = "Узел76";
-            treeNode225.Text = "Фундаментальная информатика и информационные технологии";
-            treeNode226.Name = "Узел77";
-            treeNode226.Text = "Информационные системы и технологии";
-            treeNode227.Name = "Узел78";
-            treeNode227.Text = "Прикладная информатика";
-            treeNode228.Name = "Узел79";
-            treeNode228.Text = "Информационная безопасность";
-            treeNode229.Name = "Узел80";
-            treeNode229.Text = "Бизнес-информатика";
-            treeNode230.Name = "Узел55";
-            treeNode230.Text = "Компьютерные науки";
-            treeNode231.Name = "Узел81";
-            treeNode231.Text = "Современная разработка программного обеспечения";
-            treeNode232.Name = "Узел82";
-            treeNode232.Text = "Разработка цифровых продуктов в распределенных командах";
-            treeNode233.Name = "Узел56";
-            treeNode233.Text = "Программная инженерия";
-            treeNode234.Name = "Узел83";
-            treeNode234.Text = "Информационная безопасность автоматизированных систем";
-            treeNode235.Name = "Узел84";
-            treeNode235.Text = "Информационная безопасность";
-            treeNode236.Name = "Узел85";
-            treeNode236.Text = "Управление качеством";
-            treeNode237.Name = "Узел86";
-            treeNode237.Text = "Техническая физика";
-            treeNode238.Name = "Узел87";
-            treeNode238.Text = "Нанотехнологии и микросистемная техника";
-            treeNode239.Name = "Узел88";
-            treeNode239.Text = "Прикладная механика";
-            treeNode240.Name = "Узел57";
-            treeNode240.Text = "Инженерные и технические науки";
-            treeNode241.Name = "Узел89";
-            treeNode241.Text = "Журналистика";
-            treeNode242.Name = "Узел90";
-            treeNode242.Text = "Телевидение";
-            treeNode243.Name = "Узел91";
-            treeNode243.Text = "Медиакоммуникации";
-            treeNode244.Name = "Узел92";
-            treeNode244.Text = "Реклама и связи с общественностью";
-            treeNode245.Name = "Узел93";
-            treeNode245.Text = "Дизайн";
-            treeNode246.Name = "Узел58";
-            treeNode246.Text = "Коммуникации, медиа и дизайн";
-            treeNode247.Name = "Узел94";
-            treeNode247.Text = "Экономика";
-            treeNode248.Name = "Узел95";
-            treeNode248.Text = "Экономическая безопасность";
-            treeNode249.Name = "Узел96";
-            treeNode249.Text = "Менеджмент";
-            treeNode250.Name = "Узел97";
-            treeNode250.Text = "Управление персоналом";
-            treeNode251.Name = "Узел98";
-            treeNode251.Text = "Государственное и муниципальное управление";
-            treeNode252.Name = "Узел99";
-            treeNode252.Text = "Торговое дело";
-            treeNode253.Name = "Узел100";
-            treeNode253.Text = "Сервис";
-            treeNode254.Name = "Узел101";
-            treeNode254.Text = "Гостиничное дело";
-            treeNode255.Name = "Узел59";
-            treeNode255.Text = "Экономика и управление";
-            treeNode256.Name = "Узел102";
-            treeNode256.Text = "Культурология";
-            treeNode257.Name = "Узел103";
-            treeNode257.Text = "Международные отношения";
-            treeNode258.Name = "Узел104";
-            treeNode258.Text = "Востоковедение и афганистика";
-            treeNode259.Name = "Узел105";
-            treeNode259.Text = "Зарубежное регионоведение";
-            treeNode260.Name = "Узел106";
-            treeNode260.Text = "Регионоведение России";
-            treeNode261.Name = "Узел107";
-            treeNode261.Text = "История";
-            treeNode262.Name = "Узел108";
-            treeNode262.Text = "Туризм";
-            treeNode263.Name = "Узел109";
-            treeNode263.Text = "Лингвистика";
-            treeNode264.Name = "Узел110";
-            treeNode264.Text = "Философия";
-            treeNode265.Name = "Узел60";
-            treeNode265.Text = "Гуманитарные науки";
-            treeNode266.Name = "Узел111";
-            treeNode266.Text = "Юриспруденция ";
-            treeNode267.Name = "Узел112";
-            treeNode267.Text = "Судебная и прокурорская деятельность";
-            treeNode268.Name = "Узел61";
-            treeNode268.Text = "Юриспруденция";
-            treeNode269.Name = "Узел121";
-            treeNode269.Text = "Зарубежная филология";
-            treeNode270.Name = "Узел122";
-            treeNode270.Text = "Прикладная филология";
-            treeNode271.Name = "Узел123";
-            treeNode271.Text = "Лингвистика";
-            treeNode272.Name = "Узел124";
-            treeNode272.Text = "Перевод и переводоведение";
-            treeNode273.Name = "Узел62";
-            treeNode273.Text = "Филология и лингвистика";
-            treeNode274.Name = "Узел113";
-            treeNode274.Text = "Социология";
-            treeNode275.Name = "Узел114";
-            treeNode275.Text = "Политология";
-            treeNode276.Name = "Узел115";
-            treeNode276.Text = "Конфликтология";
-            treeNode277.Name = "Узел116";
-            treeNode277.Text = "Религиоведение";
-            treeNode278.Name = "Узел117";
-            treeNode278.Text = "Теология";
-            treeNode279.Name = "Узел118";
-            treeNode279.Text = "Психология";
-            treeNode280.Name = "Узел119";
-            treeNode280.Text = "Клиническая психология";
-            treeNode281.Name = "Узел120";
-            treeNode281.Text = "Организация работы с молодежью";
-            treeNode282.Name = "Узел63";
-            treeNode282.Text = "Социальные науки";
+            treeNode283.Name = "Узел3";
+            treeNode283.Text = "Физика";
+            treeNode284.Name = "Узел4";
+            treeNode284.Text = "Радиофизика";
+            treeNode285.Name = "Узел5";
+            treeNode285.Text = "Нанотехнологии и микросистемная техника";
+            treeNode286.Name = "Узел6";
+            treeNode286.Text = "Механика и математическое моделирование";
+            treeNode287.Name = "Узел7";
+            treeNode287.Text = "Прикладная механика";
+            treeNode288.Name = "Узел8";
+            treeNode288.Text = "Геодезия и дистанционное зондирование";
+            treeNode289.Name = "Узел12";
+            treeNode289.Text = "Математика";
+            treeNode290.Name = "Узел13";
+            treeNode290.Text = "Астрономия";
+            treeNode291.Name = "Узел0";
+            treeNode291.Text = "Математика, физика";
+            treeNode292.Name = "Узел15";
+            treeNode292.Text = "География";
+            treeNode293.Name = "Узел18";
+            treeNode293.Text = "Картография и геоинформатика";
+            treeNode294.Name = "Узел19";
+            treeNode294.Text = "Экология и природользование";
+            treeNode295.Name = "Узел20";
+            treeNode295.Text = "Землеустройство и кадастры";
+            treeNode296.Name = "Узел21";
+            treeNode296.Text = "Гидрометерология";
+            treeNode297.Name = "Узел24";
+            treeNode297.Text = "Почвоведение";
+            treeNode298.Name = "Узел25";
+            treeNode298.Text = "Природоустройство и водопользование";
+            treeNode299.Name = "Узел26";
+            treeNode299.Text = "Геология";
+            treeNode300.Name = "Узел27";
+            treeNode300.Text = "Геофизика";
+            treeNode301.Name = "Узел29";
+            treeNode301.Text = "Инженерная геология и гидрогеология";
+            treeNode302.Name = "Узел32";
+            treeNode302.Text = "Нефтегазовое дело";
+            treeNode303.Name = "Узел34";
+            treeNode303.Text = "Биотехнология ";
+            treeNode304.Name = "Узел35";
+            treeNode304.Text = "Геология и освоение месторождений нефти и газа";
+            treeNode305.Name = "Узел14";
+            treeNode305.Text = "Геология, география, экология и природопользование";
+            treeNode306.Name = "Узел64";
+            treeNode306.Text = "Биотехнические системы и технологии";
+            treeNode307.Name = "Узел65";
+            treeNode307.Text = "Медицинская биохимия";
+            treeNode308.Name = "Узел66";
+            treeNode308.Text = "Биология";
+            treeNode309.Name = "Узел67";
+            treeNode309.Text = "Лечебное дело";
+            treeNode310.Name = "Узел68";
+            treeNode310.Text = "Фармация";
+            treeNode311.Name = "Узел69";
+            treeNode311.Text = "Стоматология";
+            treeNode312.Name = "Узел70";
+            treeNode312.Text = "Химия";
+            treeNode313.Name = "Узел71";
+            treeNode313.Text = "Фундаментальная и прикладная химия";
+            treeNode314.Name = "Узел54";
+            treeNode314.Text = "Химия, биология";
+            treeNode315.Name = "Узел72";
+            treeNode315.Text = "Инноватика";
+            treeNode316.Name = "Узел73";
+            treeNode316.Text = "Математика и компьютерные науки";
+            treeNode317.Name = "Узел74";
+            treeNode317.Text = "Прикладная математика и информатика";
+            treeNode318.Name = "Узел75";
+            treeNode318.Text = "Прикладная математика";
+            treeNode319.Name = "Узел76";
+            treeNode319.Text = "Фундаментальная информатика и информационные технологии";
+            treeNode320.Name = "Узел77";
+            treeNode320.Text = "Информационные системы и технологии";
+            treeNode321.Name = "Узел78";
+            treeNode321.Text = "Прикладная информатика";
+            treeNode322.Name = "Узел79";
+            treeNode322.Text = "Информационная безопасность";
+            treeNode323.Name = "Узел80";
+            treeNode323.Text = "Бизнес-информатика";
+            treeNode324.Name = "Узел55";
+            treeNode324.Text = "Компьютерные науки";
+            treeNode325.Name = "Узел81";
+            treeNode325.Text = "Современная разработка программного обеспечения";
+            treeNode326.Name = "Узел82";
+            treeNode326.Text = "Разработка цифровых продуктов в распределенных командах";
+            treeNode327.Name = "Узел56";
+            treeNode327.Text = "Программная инженерия";
+            treeNode328.Name = "Узел83";
+            treeNode328.Text = "Информационная безопасность автоматизированных систем";
+            treeNode329.Name = "Узел84";
+            treeNode329.Text = "Информационная безопасность";
+            treeNode330.Name = "Узел85";
+            treeNode330.Text = "Управление качеством";
+            treeNode331.Name = "Узел86";
+            treeNode331.Text = "Техническая физика";
+            treeNode332.Name = "Узел87";
+            treeNode332.Text = "Нанотехнологии и микросистемная техника";
+            treeNode333.Name = "Узел88";
+            treeNode333.Text = "Прикладная механика";
+            treeNode334.Name = "Узел57";
+            treeNode334.Text = "Инженерные и технические науки";
+            treeNode335.Name = "Узел89";
+            treeNode335.Text = "Журналистика";
+            treeNode336.Name = "Узел90";
+            treeNode336.Text = "Телевидение";
+            treeNode337.Name = "Узел91";
+            treeNode337.Text = "Медиакоммуникации";
+            treeNode338.Name = "Узел92";
+            treeNode338.Text = "Реклама и связи с общественностью";
+            treeNode339.Name = "Узел93";
+            treeNode339.Text = "Дизайн";
+            treeNode340.Name = "Узел58";
+            treeNode340.Text = "Коммуникации, медиа и дизайн";
+            treeNode341.Name = "Узел94";
+            treeNode341.Text = "Экономика";
+            treeNode342.Name = "Узел95";
+            treeNode342.Text = "Экономическая безопасность";
+            treeNode343.Name = "Узел96";
+            treeNode343.Text = "Менеджмент";
+            treeNode344.Name = "Узел97";
+            treeNode344.Text = "Управление персоналом";
+            treeNode345.Name = "Узел98";
+            treeNode345.Text = "Государственное и муниципальное управление";
+            treeNode346.Name = "Узел99";
+            treeNode346.Text = "Торговое дело";
+            treeNode347.Name = "Узел100";
+            treeNode347.Text = "Сервис";
+            treeNode348.Name = "Узел101";
+            treeNode348.Text = "Гостиничное дело";
+            treeNode349.Name = "Узел59";
+            treeNode349.Text = "Экономика и управление";
+            treeNode350.Name = "Узел102";
+            treeNode350.Text = "Культурология";
+            treeNode351.Name = "Узел103";
+            treeNode351.Text = "Международные отношения";
+            treeNode352.Name = "Узел104";
+            treeNode352.Text = "Востоковедение и афганистика";
+            treeNode353.Name = "Узел105";
+            treeNode353.Text = "Зарубежное регионоведение";
+            treeNode354.Name = "Узел106";
+            treeNode354.Text = "Регионоведение России";
+            treeNode355.Name = "Узел107";
+            treeNode355.Text = "История";
+            treeNode356.Name = "Узел108";
+            treeNode356.Text = "Туризм";
+            treeNode357.Name = "Узел109";
+            treeNode357.Text = "Лингвистика";
+            treeNode358.Name = "Узел110";
+            treeNode358.Text = "Философия";
+            treeNode359.Name = "Узел60";
+            treeNode359.Text = "Гуманитарные науки";
+            treeNode360.Name = "Узел111";
+            treeNode360.Text = "Юриспруденция ";
+            treeNode361.Name = "Узел112";
+            treeNode361.Text = "Судебная и прокурорская деятельность";
+            treeNode362.Name = "Узел61";
+            treeNode362.Text = "Юриспруденция";
+            treeNode363.Name = "Узел121";
+            treeNode363.Text = "Зарубежная филология";
+            treeNode364.Name = "Узел122";
+            treeNode364.Text = "Прикладная филология";
+            treeNode365.Name = "Узел123";
+            treeNode365.Text = "Лингвистика";
+            treeNode366.Name = "Узел124";
+            treeNode366.Text = "Перевод и переводоведение";
+            treeNode367.Name = "Узел62";
+            treeNode367.Text = "Филология и лингвистика";
+            treeNode368.Name = "Узел113";
+            treeNode368.Text = "Социология";
+            treeNode369.Name = "Узел114";
+            treeNode369.Text = "Политология";
+            treeNode370.Name = "Узел115";
+            treeNode370.Text = "Конфликтология";
+            treeNode371.Name = "Узел116";
+            treeNode371.Text = "Религиоведение";
+            treeNode372.Name = "Узел117";
+            treeNode372.Text = "Теология";
+            treeNode373.Name = "Узел118";
+            treeNode373.Text = "Психология";
+            treeNode374.Name = "Узел119";
+            treeNode374.Text = "Клиническая психология";
+            treeNode375.Name = "Узел120";
+            treeNode375.Text = "Организация работы с молодежью";
+            treeNode376.Name = "Узел63";
+            treeNode376.Text = "Социальные науки";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode197,
-            treeNode211,
-            treeNode220,
-            treeNode230,
-            treeNode233,
-            treeNode240,
-            treeNode246,
-            treeNode255,
-            treeNode265,
-            treeNode268,
-            treeNode273,
-            treeNode282});
+            treeNode291,
+            treeNode305,
+            treeNode314,
+            treeNode324,
+            treeNode327,
+            treeNode334,
+            treeNode340,
+            treeNode349,
+            treeNode359,
+            treeNode362,
+            treeNode367,
+            treeNode376});
             this.treeView1.Size = new System.Drawing.Size(1844, 873);
             this.treeView1.TabIndex = 0;
             // 
