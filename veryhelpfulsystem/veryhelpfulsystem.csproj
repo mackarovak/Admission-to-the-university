@@ -83,17 +83,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataBaseHelper.cs" />
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="formavhoda.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formavhoda.Designer.cs">
       <DependentUpon>formavhoda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="NewItemPanel.cs">
       <SubType>UserControl</SubType>
@@ -128,11 +128,11 @@
     <Compile Include="VerticalLabel.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="formavhoda.resx">
       <DependentUpon>formavhoda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewItemPanel.resx">
       <DependentUpon>NewItemPanel.cs</DependentUpon>

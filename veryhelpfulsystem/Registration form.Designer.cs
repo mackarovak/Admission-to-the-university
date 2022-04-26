@@ -134,7 +134,6 @@ namespace veryhelpfulsystem
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Регистрация";
             this.TopMost = true;
-            this.Load += new System.EventHandler(this.Registration_form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

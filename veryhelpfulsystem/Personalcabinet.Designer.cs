@@ -99,7 +99,7 @@ namespace veryhelpfulsystem
             this.tabControl2.Location = new System.Drawing.Point(0, 0);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1772, 786);
+            this.tabControl2.Size = new System.Drawing.Size(1920, 1020);
             this.tabControl2.TabIndex = 0;
             // 
             // tabPage1
@@ -115,7 +115,7 @@ namespace veryhelpfulsystem
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1764, 753);
+            this.tabPage1.Size = new System.Drawing.Size(1912, 987);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Анкета";
             // 
@@ -180,17 +180,17 @@ namespace veryhelpfulsystem
             this.tabPage4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1764, 753);
+            this.tabPage4.Size = new System.Drawing.Size(1912, 987);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "ИД";
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.label6);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(9, 138);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(5, 138);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1658, 603);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1907, 844);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // label6
@@ -200,7 +200,7 @@ namespace veryhelpfulsystem
             this.label6.Location = new System.Drawing.Point(4, 0);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(1648, 1073);
+            this.label6.Size = new System.Drawing.Size(1893, 870);
             this.label6.TabIndex = 0;
             this.label6.Text = resources.GetString("label6.Text");
             // 
@@ -236,7 +236,7 @@ namespace veryhelpfulsystem
             this.tabPage5.Controls.Add(this.flowLayoutPanel3);
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1764, 753);
+            this.tabPage5.Size = new System.Drawing.Size(1912, 987);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Документы";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -250,7 +250,7 @@ namespace veryhelpfulsystem
             this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(1764, 753);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(1912, 987);
             this.flowLayoutPanel3.TabIndex = 0;
             // 
             // label7
@@ -259,7 +259,7 @@ namespace veryhelpfulsystem
             this.label7.Location = new System.Drawing.Point(4, 0);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(1752, 464);
+            this.label7.Size = new System.Drawing.Size(1899, 435);
             this.label7.TabIndex = 0;
             this.label7.Text = resources.GetString("label7.Text");
             // 
@@ -317,7 +317,7 @@ namespace veryhelpfulsystem
             this.tabPage7.Controls.Add(this.listBox1);
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1764, 753);
+            this.tabPage7.Size = new System.Drawing.Size(1912, 987);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Дистанционное заключение договора";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -357,7 +357,7 @@ namespace veryhelpfulsystem
                 "ого года"});
             this.listBox1.Location = new System.Drawing.Point(8, 8);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1590, 704);
+            this.listBox1.Size = new System.Drawing.Size(1908, 979);
             this.listBox1.TabIndex = 0;
             // 
             // Personalcabinet
