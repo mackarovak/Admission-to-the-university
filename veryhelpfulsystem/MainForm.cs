@@ -117,17 +117,6 @@ namespace veryhelpfulsystem
             Process.Start("https://kpfu.ru/portal/docs/F2042699633/Licenziya.na.OD.01.02.21.pdf");
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            dataBase = new DataBaseHelper();
-            peoplefromprikazs = dataBase.ZapisPrikaza();
-            using (StreamWriter streamWriter = new StreamWriter("Приказ.txt"))
-            {
-                for (int i = 0; i < peoplefromprikazs.Count; streamWriter.Write((i == 0 ? string.Empty : " ") + peoplefromprikazs[i++].ToString())) ;
-                streamWriter.WriteLine(string.Empty);
-            }
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             Process.Start("https://kpfu.ru/museum-of-history");
